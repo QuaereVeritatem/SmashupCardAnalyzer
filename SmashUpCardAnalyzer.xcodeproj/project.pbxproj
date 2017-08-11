@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370C6E6F1F30A98D00A6CB31 /* AllStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6E6A1F30A98D00A6CB31 /* AllStars.swift */; };
+		370C6E701F30A98D00A6CB31 /* Explorers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6E6B1F30A98D00A6CB31 /* Explorers.swift */; };
+		370C6E711F30A98D00A6CB31 /* Grannies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6E6C1F30A98D00A6CB31 /* Grannies.swift */; };
+		370C6E721F30A98D00A6CB31 /* RockStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6E6D1F30A98D00A6CB31 /* RockStars.swift */; };
+		370C6E731F30A98D00A6CB31 /* TeddyBears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6E6E1F30A98D00A6CB31 /* TeddyBears.swift */; };
+		379A5B751F0DA522005BDBBF /* Heroic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 379A5B741F0DA522005BDBBF /* Heroic.ttf */; };
+		379A5B771F1356EF005BDBBF /* Diplomata-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 379A5B761F1356EF005BDBBF /* Diplomata-Regular.ttf */; };
+		379A5B7A1F137049005BDBBF /* TopCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B791F137049005BDBBF /* TopCollectionViewController.swift */; };
+		379A5B7C1F137073005BDBBF /* KillCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B7B1F137073005BDBBF /* KillCollectionViewController.swift */; };
+		379A5B7E1F137117005BDBBF /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B7D1F137117005BDBBF /* TopCollectionViewCell.swift */; };
+		379A5B801F13712F005BDBBF /* KillCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B7F1F13712F005BDBBF /* KillCollectionViewCell.swift */; };
+		379A5B821F13745B005BDBBF /* CardTypeMAandTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B811F13745B005BDBBF /* CardTypeMAandTopViewController.swift */; };
+		379A5B841F137486005BDBBF /* CardTypeKillMoveExtraEtcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B831F137486005BDBBF /* CardTypeKillMoveExtraEtcViewController.swift */; };
+		379A5B861F138364005BDBBF /* Factions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B851F138364005BDBBF /* Factions.swift */; };
+		379A5B8A1F15F44E005BDBBF /* SearchOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B891F15F44E005BDBBF /* SearchOptions.swift */; };
+		379A5B8C1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B8B1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift */; };
+		379A5B8E1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B8D1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift */; };
+		379A5B901F160E7C005BDBBF /* ListOfAllCardsAndFactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B8F1F160E7C005BDBBF /* ListOfAllCardsAndFactions.swift */; };
+		379A5B921F16181B005BDBBF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B911F16181B005BDBBF /* Card.swift */; };
+		379A5BC21F161C37005BDBBF /* Aliens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B941F161C37005BDBBF /* Aliens.swift */; };
+		379A5BC31F161C37005BDBBF /* AstroKnights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B951F161C37005BDBBF /* AstroKnights.swift */; };
+		379A5BC41F161C37005BDBBF /* BearCavalry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B961F161C37005BDBBF /* BearCavalry.swift */; };
+		379A5BC51F161C37005BDBBF /* ChangerBots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B971F161C37005BDBBF /* ChangerBots.swift */; };
+		379A5BC61F161C37005BDBBF /* Clerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B981F161C37005BDBBF /* Clerics.swift */; };
+		379A5BC71F161C37005BDBBF /* CyborgApes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B991F161C37005BDBBF /* CyborgApes.swift */; };
+		379A5BC81F161C37005BDBBF /* Dinosaurs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B9A1F161C37005BDBBF /* Dinosaurs.swift */; };
+		379A5BC91F161C37005BDBBF /* Dragons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B9B1F161C37005BDBBF /* Dragons.swift */; };
+		379A5BCA1F161C37005BDBBF /* Dwarves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B9C1F161C37005BDBBF /* Dwarves.swift */; };
+		379A5BCB1F161C37005BDBBF /* ElderThings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B9D1F161C37005BDBBF /* ElderThings.swift */; };
+		379A5BCC1F161C37005BDBBF /* Elves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B9E1F161C37005BDBBF /* Elves.swift */; };
+		379A5BCD1F161C37005BDBBF /* Fairies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B9F1F161C37005BDBBF /* Fairies.swift */; };
+		379A5BCE1F161C37005BDBBF /* Geeks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA01F161C37005BDBBF /* Geeks.swift */; };
+		379A5BCF1F161C37005BDBBF /* Ghosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA11F161C37005BDBBF /* Ghosts.swift */; };
+		379A5BD01F161C37005BDBBF /* GiantAnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA21F161C37005BDBBF /* GiantAnts.swift */; };
+		379A5BD11F161C37005BDBBF /* Halflings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA31F161C37005BDBBF /* Halflings.swift */; };
+		379A5BD21F161C37005BDBBF /* IgNobles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA41F161C37005BDBBF /* IgNobles.swift */; };
+		379A5BD31F161C37005BDBBF /* Innsmouth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA51F161C37005BDBBF /* Innsmouth.swift */; };
+		379A5BD41F161C37005BDBBF /* KillerPlants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA61F161C37005BDBBF /* KillerPlants.swift */; };
+		379A5BD51F161C37005BDBBF /* KittyCats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA71F161C37005BDBBF /* KittyCats.swift */; };
+		379A5BD61F161C37005BDBBF /* MadScientists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA81F161C37005BDBBF /* MadScientists.swift */; };
+		379A5BD71F161C37005BDBBF /* Mages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA91F161C37005BDBBF /* Mages.swift */; };
+		379A5BD81F161C37005BDBBF /* MinionsOfCthulhu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BAA1F161C37005BDBBF /* MinionsOfCthulhu.swift */; };
+		379A5BD91F161C37005BDBBF /* MiskatonicUniversity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BAB1F161C37005BDBBF /* MiskatonicUniversity.swift */; };
+		379A5BDA1F161C37005BDBBF /* MythicGreeks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BAC1F161C37005BDBBF /* MythicGreeks.swift */; };
+		379A5BDB1F161C38005BDBBF /* MythicHorses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BAD1F161C37005BDBBF /* MythicHorses.swift */; };
+		379A5BDC1F161C38005BDBBF /* Ninjas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BAE1F161C37005BDBBF /* Ninjas.swift */; };
+		379A5BDD1F161C38005BDBBF /* Orcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BAF1F161C37005BDBBF /* Orcs.swift */; };
+		379A5BDE1F161C38005BDBBF /* Pirates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB01F161C37005BDBBF /* Pirates.swift */; };
+		379A5BDF1F161C38005BDBBF /* Princesses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB11F161C37005BDBBF /* Princesses.swift */; };
+		379A5BE01F161C38005BDBBF /* Robots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB21F161C37005BDBBF /* Robots.swift */; };
+		379A5BE11F161C38005BDBBF /* ShapeShifters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB31F161C37005BDBBF /* ShapeShifters.swift */; };
+		379A5BE21F161C38005BDBBF /* Sharks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB41F161C37005BDBBF /* Sharks.swift */; };
+		379A5BE31F161C38005BDBBF /* StarRoamers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB51F161C37005BDBBF /* StarRoamers.swift */; };
+		379A5BE41F161C38005BDBBF /* SteamPunks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB61F161C37005BDBBF /* SteamPunks.swift */; };
+		379A5BE51F161C38005BDBBF /* SuperHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB71F161C37005BDBBF /* SuperHeroes.swift */; };
+		379A5BE61F161C38005BDBBF /* SuperSpies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB81F161C37005BDBBF /* SuperSpies.swift */; };
+		379A5BE71F161C38005BDBBF /* Thieves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB91F161C37005BDBBF /* Thieves.swift */; };
+		379A5BE81F161C38005BDBBF /* TimeTravelers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BBA1F161C37005BDBBF /* TimeTravelers.swift */; };
+		379A5BE91F161C38005BDBBF /* Tornados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BBB1F161C37005BDBBF /* Tornados.swift */; };
+		379A5BEA1F161C38005BDBBF /* Tricksters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BBC1F161C37005BDBBF /* Tricksters.swift */; };
+		379A5BEB1F161C38005BDBBF /* Vampires.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BBD1F161C37005BDBBF /* Vampires.swift */; };
+		379A5BEC1F161C38005BDBBF /* Warriors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BBE1F161C37005BDBBF /* Warriors.swift */; };
+		379A5BED1F161C38005BDBBF /* Werewolves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BBF1F161C37005BDBBF /* Werewolves.swift */; };
+		379A5BEE1F161C38005BDBBF /* Wizards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BC01F161C37005BDBBF /* Wizards.swift */; };
+		379A5BEF1F161C38005BDBBF /* Zombies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BC11F161C37005BDBBF /* Zombies.swift */; };
+		379A5BF61F161D85005BDBBF /* ActionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF11F161D85005BDBBF /* ActionCard.swift */; };
+		379A5BF71F161D85005BDBBF /* ActionCardAbility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF21F161D85005BDBBF /* ActionCardAbility.swift */; };
+		379A5BF81F161D85005BDBBF /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF31F161D85005BDBBF /* Faction.swift */; };
+		379A5BF91F161D85005BDBBF /* Minion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF41F161D85005BDBBF /* Minion.swift */; };
+		379A5BFA1F161D85005BDBBF /* MinionAbility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF51F161D85005BDBBF /* MinionAbility.swift */; };
+		37F1EDA51F05E5090049AB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F1EDA41F05E5090049AB8E /* AppDelegate.swift */; };
+		37F1EDA71F05E5090049AB8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F1EDA61F05E5090049AB8E /* ViewController.swift */; };
+		37F1EDAA1F05E5090049AB8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F1EDA81F05E5090049AB8E /* Main.storyboard */; };
+		37F1EDAD1F05E5090049AB8E /* SmashUpCardAnalyzer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37F1EDAB1F05E5090049AB8E /* SmashUpCardAnalyzer.xcdatamodeld */; };
+		37F1EDAF1F05E5090049AB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F1EDAE1F05E5090049AB8E /* Assets.xcassets */; };
+		37F1EDB21F05E5090049AB8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F1EDB01F05E5090049AB8E /* LaunchScreen.storyboard */; };
+		37F1EDBD1F05E5090049AB8E /* SmashUpCardAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F1EDBC1F05E5090049AB8E /* SmashUpCardAnalyzerTests.swift */; };
+		37F1EDC81F05E50A0049AB8E /* SmashUpCardAnalyzerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F1EDC71F05E50A0049AB8E /* SmashUpCardAnalyzerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37F1EDB91F05E5090049AB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37F1ED991F05E5090049AB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37F1EDA01F05E5090049AB8E;
+			remoteInfo = SmashUpCardAnalyzer;
+		};
+		37F1EDC41F05E5090049AB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37F1ED991F05E5090049AB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37F1EDA01F05E5090049AB8E;
+			remoteInfo = SmashUpCardAnalyzer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		370C6E6A1F30A98D00A6CB31 /* AllStars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllStars.swift; path = ../../SmashUp/SmashUp/AllStars.swift; sourceTree = "<group>"; };
+		370C6E6B1F30A98D00A6CB31 /* Explorers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Explorers.swift; path = ../../SmashUp/SmashUp/Explorers.swift; sourceTree = "<group>"; };
+		370C6E6C1F30A98D00A6CB31 /* Grannies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Grannies.swift; path = ../../SmashUp/SmashUp/Grannies.swift; sourceTree = "<group>"; };
+		370C6E6D1F30A98D00A6CB31 /* RockStars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RockStars.swift; path = ../../SmashUp/SmashUp/RockStars.swift; sourceTree = "<group>"; };
+		370C6E6E1F30A98D00A6CB31 /* TeddyBears.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeddyBears.swift; path = ../../SmashUp/SmashUp/TeddyBears.swift; sourceTree = "<group>"; };
+		379A5B741F0DA522005BDBBF /* Heroic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Heroic.ttf; path = ../../../../DesignsOrArt/DesigningApps/FONTS/Heroic.ttf; sourceTree = "<group>"; };
+		379A5B761F1356EF005BDBBF /* Diplomata-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Diplomata-Regular.ttf"; path = "../../../../DesignsOrArt/DesigningApps/FONTS/Diplomata/Diplomata-Regular.ttf"; sourceTree = "<group>"; };
+		379A5B791F137049005BDBBF /* TopCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCollectionViewController.swift; sourceTree = "<group>"; };
+		379A5B7B1F137073005BDBBF /* KillCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KillCollectionViewController.swift; sourceTree = "<group>"; };
+		379A5B7D1F137117005BDBBF /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
+		379A5B7F1F13712F005BDBBF /* KillCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KillCollectionViewCell.swift; sourceTree = "<group>"; };
+		379A5B811F13745B005BDBBF /* CardTypeMAandTopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTypeMAandTopViewController.swift; sourceTree = "<group>"; };
+		379A5B831F137486005BDBBF /* CardTypeKillMoveExtraEtcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTypeKillMoveExtraEtcViewController.swift; sourceTree = "<group>"; };
+		379A5B851F138364005BDBBF /* Factions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factions.swift; sourceTree = "<group>"; };
+		379A5B891F15F44E005BDBBF /* SearchOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchOptions.swift; sourceTree = "<group>"; };
+		379A5B8B1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchThruEntireDeckViewController.swift; sourceTree = "<group>"; };
+		379A5B8D1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAllCollectionViewCell.swift; sourceTree = "<group>"; };
+		379A5B8F1F160E7C005BDBBF /* ListOfAllCardsAndFactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOfAllCardsAndFactions.swift; path = ../../SmashUp/SmashUp/ListOfAllCardsAndFactions.swift; sourceTree = "<group>"; };
+		379A5B911F16181B005BDBBF /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		379A5B941F161C37005BDBBF /* Aliens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Aliens.swift; path = ../../SmashUp/SmashUp/Aliens.swift; sourceTree = "<group>"; };
+		379A5B951F161C37005BDBBF /* AstroKnights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AstroKnights.swift; path = ../../SmashUp/SmashUp/AstroKnights.swift; sourceTree = "<group>"; };
+		379A5B961F161C37005BDBBF /* BearCavalry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BearCavalry.swift; path = ../../SmashUp/SmashUp/BearCavalry.swift; sourceTree = "<group>"; };
+		379A5B971F161C37005BDBBF /* ChangerBots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangerBots.swift; path = ../../SmashUp/SmashUp/ChangerBots.swift; sourceTree = "<group>"; };
+		379A5B981F161C37005BDBBF /* Clerics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Clerics.swift; path = ../../SmashUp/SmashUp/Clerics.swift; sourceTree = "<group>"; };
+		379A5B991F161C37005BDBBF /* CyborgApes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CyborgApes.swift; path = ../../SmashUp/SmashUp/CyborgApes.swift; sourceTree = "<group>"; };
+		379A5B9A1F161C37005BDBBF /* Dinosaurs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dinosaurs.swift; path = ../../SmashUp/SmashUp/Dinosaurs.swift; sourceTree = "<group>"; };
+		379A5B9B1F161C37005BDBBF /* Dragons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dragons.swift; path = ../../SmashUp/SmashUp/Dragons.swift; sourceTree = "<group>"; };
+		379A5B9C1F161C37005BDBBF /* Dwarves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dwarves.swift; path = ../../SmashUp/SmashUp/Dwarves.swift; sourceTree = "<group>"; };
+		379A5B9D1F161C37005BDBBF /* ElderThings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElderThings.swift; path = ../../SmashUp/SmashUp/ElderThings.swift; sourceTree = "<group>"; };
+		379A5B9E1F161C37005BDBBF /* Elves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Elves.swift; path = ../../SmashUp/SmashUp/Elves.swift; sourceTree = "<group>"; };
+		379A5B9F1F161C37005BDBBF /* Fairies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fairies.swift; path = ../../SmashUp/SmashUp/Fairies.swift; sourceTree = "<group>"; };
+		379A5BA01F161C37005BDBBF /* Geeks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Geeks.swift; path = ../../SmashUp/SmashUp/Geeks.swift; sourceTree = "<group>"; };
+		379A5BA11F161C37005BDBBF /* Ghosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ghosts.swift; path = ../../SmashUp/SmashUp/Ghosts.swift; sourceTree = "<group>"; };
+		379A5BA21F161C37005BDBBF /* GiantAnts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GiantAnts.swift; path = ../../SmashUp/SmashUp/GiantAnts.swift; sourceTree = "<group>"; };
+		379A5BA31F161C37005BDBBF /* Halflings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Halflings.swift; path = ../../SmashUp/SmashUp/Halflings.swift; sourceTree = "<group>"; };
+		379A5BA41F161C37005BDBBF /* IgNobles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IgNobles.swift; path = ../../SmashUp/SmashUp/IgNobles.swift; sourceTree = "<group>"; };
+		379A5BA51F161C37005BDBBF /* Innsmouth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Innsmouth.swift; path = ../../SmashUp/SmashUp/Innsmouth.swift; sourceTree = "<group>"; };
+		379A5BA61F161C37005BDBBF /* KillerPlants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KillerPlants.swift; path = ../../SmashUp/SmashUp/KillerPlants.swift; sourceTree = "<group>"; };
+		379A5BA71F161C37005BDBBF /* KittyCats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KittyCats.swift; path = ../../SmashUp/SmashUp/KittyCats.swift; sourceTree = "<group>"; };
+		379A5BA81F161C37005BDBBF /* MadScientists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MadScientists.swift; path = ../../SmashUp/SmashUp/MadScientists.swift; sourceTree = "<group>"; };
+		379A5BA91F161C37005BDBBF /* Mages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mages.swift; path = ../../SmashUp/SmashUp/Mages.swift; sourceTree = "<group>"; };
+		379A5BAA1F161C37005BDBBF /* MinionsOfCthulhu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinionsOfCthulhu.swift; path = ../../SmashUp/SmashUp/MinionsOfCthulhu.swift; sourceTree = "<group>"; };
+		379A5BAB1F161C37005BDBBF /* MiskatonicUniversity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MiskatonicUniversity.swift; path = ../../SmashUp/SmashUp/MiskatonicUniversity.swift; sourceTree = "<group>"; };
+		379A5BAC1F161C37005BDBBF /* MythicGreeks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MythicGreeks.swift; path = ../../SmashUp/SmashUp/MythicGreeks.swift; sourceTree = "<group>"; };
+		379A5BAD1F161C37005BDBBF /* MythicHorses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MythicHorses.swift; path = ../../SmashUp/SmashUp/MythicHorses.swift; sourceTree = "<group>"; };
+		379A5BAE1F161C37005BDBBF /* Ninjas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ninjas.swift; path = ../../SmashUp/SmashUp/Ninjas.swift; sourceTree = "<group>"; };
+		379A5BAF1F161C37005BDBBF /* Orcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Orcs.swift; path = ../../SmashUp/SmashUp/Orcs.swift; sourceTree = "<group>"; };
+		379A5BB01F161C37005BDBBF /* Pirates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pirates.swift; path = ../../SmashUp/SmashUp/Pirates.swift; sourceTree = "<group>"; };
+		379A5BB11F161C37005BDBBF /* Princesses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Princesses.swift; path = ../../SmashUp/SmashUp/Princesses.swift; sourceTree = "<group>"; };
+		379A5BB21F161C37005BDBBF /* Robots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Robots.swift; path = ../../SmashUp/SmashUp/Robots.swift; sourceTree = "<group>"; };
+		379A5BB31F161C37005BDBBF /* ShapeShifters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShapeShifters.swift; path = ../../SmashUp/SmashUp/ShapeShifters.swift; sourceTree = "<group>"; };
+		379A5BB41F161C37005BDBBF /* Sharks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sharks.swift; path = ../../SmashUp/SmashUp/Sharks.swift; sourceTree = "<group>"; };
+		379A5BB51F161C37005BDBBF /* StarRoamers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarRoamers.swift; path = ../../SmashUp/SmashUp/StarRoamers.swift; sourceTree = "<group>"; };
+		379A5BB61F161C37005BDBBF /* SteamPunks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SteamPunks.swift; path = ../../SmashUp/SmashUp/SteamPunks.swift; sourceTree = "<group>"; };
+		379A5BB71F161C37005BDBBF /* SuperHeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuperHeroes.swift; path = ../../SmashUp/SmashUp/SuperHeroes.swift; sourceTree = "<group>"; };
+		379A5BB81F161C37005BDBBF /* SuperSpies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuperSpies.swift; path = ../../SmashUp/SmashUp/SuperSpies.swift; sourceTree = "<group>"; };
+		379A5BB91F161C37005BDBBF /* Thieves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Thieves.swift; path = ../../SmashUp/SmashUp/Thieves.swift; sourceTree = "<group>"; };
+		379A5BBA1F161C37005BDBBF /* TimeTravelers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeTravelers.swift; path = ../../SmashUp/SmashUp/TimeTravelers.swift; sourceTree = "<group>"; };
+		379A5BBB1F161C37005BDBBF /* Tornados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tornados.swift; path = ../../SmashUp/SmashUp/Tornados.swift; sourceTree = "<group>"; };
+		379A5BBC1F161C37005BDBBF /* Tricksters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tricksters.swift; path = ../../SmashUp/SmashUp/Tricksters.swift; sourceTree = "<group>"; };
+		379A5BBD1F161C37005BDBBF /* Vampires.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vampires.swift; path = ../../SmashUp/SmashUp/Vampires.swift; sourceTree = "<group>"; };
+		379A5BBE1F161C37005BDBBF /* Warriors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Warriors.swift; path = ../../SmashUp/SmashUp/Warriors.swift; sourceTree = "<group>"; };
+		379A5BBF1F161C37005BDBBF /* Werewolves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Werewolves.swift; path = ../../SmashUp/SmashUp/Werewolves.swift; sourceTree = "<group>"; };
+		379A5BC01F161C37005BDBBF /* Wizards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Wizards.swift; path = ../../SmashUp/SmashUp/Wizards.swift; sourceTree = "<group>"; };
+		379A5BC11F161C37005BDBBF /* Zombies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Zombies.swift; path = ../../SmashUp/SmashUp/Zombies.swift; sourceTree = "<group>"; };
+		379A5BF11F161D85005BDBBF /* ActionCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionCard.swift; path = ../../SmashUp/SmashUp/ActionCard.swift; sourceTree = "<group>"; };
+		379A5BF21F161D85005BDBBF /* ActionCardAbility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionCardAbility.swift; path = ../../SmashUp/SmashUp/ActionCardAbility.swift; sourceTree = "<group>"; };
+		379A5BF31F161D85005BDBBF /* Faction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Faction.swift; path = ../../SmashUp/SmashUp/Faction.swift; sourceTree = "<group>"; };
+		379A5BF41F161D85005BDBBF /* Minion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Minion.swift; path = ../../SmashUp/SmashUp/Minion.swift; sourceTree = "<group>"; };
+		379A5BF51F161D85005BDBBF /* MinionAbility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinionAbility.swift; path = ../../SmashUp/SmashUp/MinionAbility.swift; sourceTree = "<group>"; };
+		37F1EDA11F05E5090049AB8E /* SmashUpCardAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashUpCardAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F1EDA41F05E5090049AB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37F1EDA61F05E5090049AB8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37F1EDA91F05E5090049AB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37F1EDAC1F05E5090049AB8E /* SmashUpCardAnalyzer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmashUpCardAnalyzer.xcdatamodel; sourceTree = "<group>"; };
+		37F1EDAE1F05E5090049AB8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37F1EDB11F05E5090049AB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37F1EDB31F05E5090049AB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F1EDB81F05E5090049AB8E /* SmashUpCardAnalyzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashUpCardAnalyzerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F1EDBC1F05E5090049AB8E /* SmashUpCardAnalyzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashUpCardAnalyzerTests.swift; sourceTree = "<group>"; };
+		37F1EDBE1F05E5090049AB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F1EDC31F05E5090049AB8E /* SmashUpCardAnalyzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashUpCardAnalyzerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F1EDC71F05E50A0049AB8E /* SmashUpCardAnalyzerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashUpCardAnalyzerUITests.swift; sourceTree = "<group>"; };
+		37F1EDC91F05E50A0049AB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37F1ED9E1F05E5090049AB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F1EDB51F05E5090049AB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F1EDC01F05E5090049AB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		379A5B781F136EC6005BDBBF /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				379A5B791F137049005BDBBF /* TopCollectionViewController.swift */,
+				379A5B7D1F137117005BDBBF /* TopCollectionViewCell.swift */,
+				379A5B7B1F137073005BDBBF /* KillCollectionViewController.swift */,
+				379A5B7F1F13712F005BDBBF /* KillCollectionViewCell.swift */,
+				379A5B8B1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift */,
+				379A5B8D1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		379A5B931F161BB0005BDBBF /* Faction Classes */ = {
+			isa = PBXGroup;
+			children = (
+				370C6E6A1F30A98D00A6CB31 /* AllStars.swift */,
+				370C6E6B1F30A98D00A6CB31 /* Explorers.swift */,
+				370C6E6C1F30A98D00A6CB31 /* Grannies.swift */,
+				370C6E6D1F30A98D00A6CB31 /* RockStars.swift */,
+				370C6E6E1F30A98D00A6CB31 /* TeddyBears.swift */,
+				379A5B941F161C37005BDBBF /* Aliens.swift */,
+				379A5B951F161C37005BDBBF /* AstroKnights.swift */,
+				379A5B961F161C37005BDBBF /* BearCavalry.swift */,
+				379A5B971F161C37005BDBBF /* ChangerBots.swift */,
+				379A5B981F161C37005BDBBF /* Clerics.swift */,
+				379A5B991F161C37005BDBBF /* CyborgApes.swift */,
+				379A5B9A1F161C37005BDBBF /* Dinosaurs.swift */,
+				379A5B9B1F161C37005BDBBF /* Dragons.swift */,
+				379A5B9C1F161C37005BDBBF /* Dwarves.swift */,
+				379A5B9D1F161C37005BDBBF /* ElderThings.swift */,
+				379A5B9E1F161C37005BDBBF /* Elves.swift */,
+				379A5B9F1F161C37005BDBBF /* Fairies.swift */,
+				379A5BA01F161C37005BDBBF /* Geeks.swift */,
+				379A5BA11F161C37005BDBBF /* Ghosts.swift */,
+				379A5BA21F161C37005BDBBF /* GiantAnts.swift */,
+				379A5BA31F161C37005BDBBF /* Halflings.swift */,
+				379A5BA41F161C37005BDBBF /* IgNobles.swift */,
+				379A5BA51F161C37005BDBBF /* Innsmouth.swift */,
+				379A5BA61F161C37005BDBBF /* KillerPlants.swift */,
+				379A5BA71F161C37005BDBBF /* KittyCats.swift */,
+				379A5BA81F161C37005BDBBF /* MadScientists.swift */,
+				379A5BA91F161C37005BDBBF /* Mages.swift */,
+				379A5BAA1F161C37005BDBBF /* MinionsOfCthulhu.swift */,
+				379A5BAB1F161C37005BDBBF /* MiskatonicUniversity.swift */,
+				379A5BAC1F161C37005BDBBF /* MythicGreeks.swift */,
+				379A5BAD1F161C37005BDBBF /* MythicHorses.swift */,
+				379A5BAE1F161C37005BDBBF /* Ninjas.swift */,
+				379A5BAF1F161C37005BDBBF /* Orcs.swift */,
+				379A5BB01F161C37005BDBBF /* Pirates.swift */,
+				379A5BB11F161C37005BDBBF /* Princesses.swift */,
+				379A5BB21F161C37005BDBBF /* Robots.swift */,
+				379A5BB31F161C37005BDBBF /* ShapeShifters.swift */,
+				379A5BB41F161C37005BDBBF /* Sharks.swift */,
+				379A5BB51F161C37005BDBBF /* StarRoamers.swift */,
+				379A5BB61F161C37005BDBBF /* SteamPunks.swift */,
+				379A5BB71F161C37005BDBBF /* SuperHeroes.swift */,
+				379A5BB81F161C37005BDBBF /* SuperSpies.swift */,
+				379A5BB91F161C37005BDBBF /* Thieves.swift */,
+				379A5BBA1F161C37005BDBBF /* TimeTravelers.swift */,
+				379A5BBB1F161C37005BDBBF /* Tornados.swift */,
+				379A5BBC1F161C37005BDBBF /* Tricksters.swift */,
+				379A5BBD1F161C37005BDBBF /* Vampires.swift */,
+				379A5BBE1F161C37005BDBBF /* Warriors.swift */,
+				379A5BBF1F161C37005BDBBF /* Werewolves.swift */,
+				379A5BC01F161C37005BDBBF /* Wizards.swift */,
+				379A5BC11F161C37005BDBBF /* Zombies.swift */,
+			);
+			name = "Faction Classes";
+			sourceTree = "<group>";
+		};
+		379A5BF01F161D4B005BDBBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				379A5BF11F161D85005BDBBF /* ActionCard.swift */,
+				379A5BF21F161D85005BDBBF /* ActionCardAbility.swift */,
+				379A5BF31F161D85005BDBBF /* Faction.swift */,
+				379A5BF41F161D85005BDBBF /* Minion.swift */,
+				379A5BF51F161D85005BDBBF /* MinionAbility.swift */,
+				379A5B8F1F160E7C005BDBBF /* ListOfAllCardsAndFactions.swift */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		37F1ED981F05E5090049AB8E = {
+			isa = PBXGroup;
+			children = (
+				37F1EDA31F05E5090049AB8E /* SmashUpCardAnalyzer */,
+				37F1EDBB1F05E5090049AB8E /* SmashUpCardAnalyzerTests */,
+				37F1EDC61F05E5090049AB8E /* SmashUpCardAnalyzerUITests */,
+				37F1EDA21F05E5090049AB8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37F1EDA21F05E5090049AB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37F1EDA11F05E5090049AB8E /* SmashUpCardAnalyzer.app */,
+				37F1EDB81F05E5090049AB8E /* SmashUpCardAnalyzerTests.xctest */,
+				37F1EDC31F05E5090049AB8E /* SmashUpCardAnalyzerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37F1EDA31F05E5090049AB8E /* SmashUpCardAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				379A5BF01F161D4B005BDBBF /* Support Files */,
+				379A5B931F161BB0005BDBBF /* Faction Classes */,
+				379A5B781F136EC6005BDBBF /* CollectionView */,
+				379A5B761F1356EF005BDBBF /* Diplomata-Regular.ttf */,
+				379A5B741F0DA522005BDBBF /* Heroic.ttf */,
+				37F1EDA41F05E5090049AB8E /* AppDelegate.swift */,
+				37F1EDA61F05E5090049AB8E /* ViewController.swift */,
+				379A5B811F13745B005BDBBF /* CardTypeMAandTopViewController.swift */,
+				379A5B831F137486005BDBBF /* CardTypeKillMoveExtraEtcViewController.swift */,
+				37F1EDA81F05E5090049AB8E /* Main.storyboard */,
+				37F1EDAE1F05E5090049AB8E /* Assets.xcassets */,
+				37F1EDB01F05E5090049AB8E /* LaunchScreen.storyboard */,
+				37F1EDB31F05E5090049AB8E /* Info.plist */,
+				37F1EDAB1F05E5090049AB8E /* SmashUpCardAnalyzer.xcdatamodeld */,
+				379A5B851F138364005BDBBF /* Factions.swift */,
+				379A5B891F15F44E005BDBBF /* SearchOptions.swift */,
+				379A5B911F16181B005BDBBF /* Card.swift */,
+			);
+			path = SmashUpCardAnalyzer;
+			sourceTree = "<group>";
+		};
+		37F1EDBB1F05E5090049AB8E /* SmashUpCardAnalyzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				37F1EDBC1F05E5090049AB8E /* SmashUpCardAnalyzerTests.swift */,
+				37F1EDBE1F05E5090049AB8E /* Info.plist */,
+			);
+			path = SmashUpCardAnalyzerTests;
+			sourceTree = "<group>";
+		};
+		37F1EDC61F05E5090049AB8E /* SmashUpCardAnalyzerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37F1EDC71F05E50A0049AB8E /* SmashUpCardAnalyzerUITests.swift */,
+				37F1EDC91F05E50A0049AB8E /* Info.plist */,
+			);
+			path = SmashUpCardAnalyzerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37F1EDA01F05E5090049AB8E /* SmashUpCardAnalyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F1EDCC1F05E50A0049AB8E /* Build configuration list for PBXNativeTarget "SmashUpCardAnalyzer" */;
+			buildPhases = (
+				37F1ED9D1F05E5090049AB8E /* Sources */,
+				37F1ED9E1F05E5090049AB8E /* Frameworks */,
+				37F1ED9F1F05E5090049AB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmashUpCardAnalyzer;
+			productName = SmashUpCardAnalyzer;
+			productReference = 37F1EDA11F05E5090049AB8E /* SmashUpCardAnalyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37F1EDB71F05E5090049AB8E /* SmashUpCardAnalyzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F1EDCF1F05E50A0049AB8E /* Build configuration list for PBXNativeTarget "SmashUpCardAnalyzerTests" */;
+			buildPhases = (
+				37F1EDB41F05E5090049AB8E /* Sources */,
+				37F1EDB51F05E5090049AB8E /* Frameworks */,
+				37F1EDB61F05E5090049AB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37F1EDBA1F05E5090049AB8E /* PBXTargetDependency */,
+			);
+			name = SmashUpCardAnalyzerTests;
+			productName = SmashUpCardAnalyzerTests;
+			productReference = 37F1EDB81F05E5090049AB8E /* SmashUpCardAnalyzerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37F1EDC21F05E5090049AB8E /* SmashUpCardAnalyzerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F1EDD21F05E50A0049AB8E /* Build configuration list for PBXNativeTarget "SmashUpCardAnalyzerUITests" */;
+			buildPhases = (
+				37F1EDBF1F05E5090049AB8E /* Sources */,
+				37F1EDC01F05E5090049AB8E /* Frameworks */,
+				37F1EDC11F05E5090049AB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37F1EDC51F05E5090049AB8E /* PBXTargetDependency */,
+			);
+			name = SmashUpCardAnalyzerUITests;
+			productName = SmashUpCardAnalyzerUITests;
+			productReference = 37F1EDC31F05E5090049AB8E /* SmashUpCardAnalyzerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37F1ED991F05E5090049AB8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Robert Martin";
+				TargetAttributes = {
+					37F1EDA01F05E5090049AB8E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = T3K5P842PL;
+						ProvisioningStyle = Automatic;
+					};
+					37F1EDB71F05E5090049AB8E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = T3K5P842PL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37F1EDA01F05E5090049AB8E;
+					};
+					37F1EDC21F05E5090049AB8E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = T3K5P842PL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37F1EDA01F05E5090049AB8E;
+					};
+				};
+			};
+			buildConfigurationList = 37F1ED9C1F05E5090049AB8E /* Build configuration list for PBXProject "SmashUpCardAnalyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37F1ED981F05E5090049AB8E;
+			productRefGroup = 37F1EDA21F05E5090049AB8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37F1EDA01F05E5090049AB8E /* SmashUpCardAnalyzer */,
+				37F1EDB71F05E5090049AB8E /* SmashUpCardAnalyzerTests */,
+				37F1EDC21F05E5090049AB8E /* SmashUpCardAnalyzerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37F1ED9F1F05E5090049AB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379A5B771F1356EF005BDBBF /* Diplomata-Regular.ttf in Resources */,
+				379A5B751F0DA522005BDBBF /* Heroic.ttf in Resources */,
+				37F1EDB21F05E5090049AB8E /* LaunchScreen.storyboard in Resources */,
+				37F1EDAF1F05E5090049AB8E /* Assets.xcassets in Resources */,
+				37F1EDAA1F05E5090049AB8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F1EDB61F05E5090049AB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F1EDC11F05E5090049AB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37F1ED9D1F05E5090049AB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370C6E721F30A98D00A6CB31 /* RockStars.swift in Sources */,
+				379A5B8A1F15F44E005BDBBF /* SearchOptions.swift in Sources */,
+				379A5BC31F161C37005BDBBF /* AstroKnights.swift in Sources */,
+				370C6E6F1F30A98D00A6CB31 /* AllStars.swift in Sources */,
+				379A5BCB1F161C37005BDBBF /* ElderThings.swift in Sources */,
+				379A5B8E1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift in Sources */,
+				379A5BD51F161C37005BDBBF /* KittyCats.swift in Sources */,
+				379A5B8C1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift in Sources */,
+				379A5BDB1F161C38005BDBBF /* MythicHorses.swift in Sources */,
+				379A5BD91F161C37005BDBBF /* MiskatonicUniversity.swift in Sources */,
+				379A5BDD1F161C38005BDBBF /* Orcs.swift in Sources */,
+				379A5BC21F161C37005BDBBF /* Aliens.swift in Sources */,
+				379A5B801F13712F005BDBBF /* KillCollectionViewCell.swift in Sources */,
+				379A5BE51F161C38005BDBBF /* SuperHeroes.swift in Sources */,
+				379A5B7E1F137117005BDBBF /* TopCollectionViewCell.swift in Sources */,
+				37F1EDA71F05E5090049AB8E /* ViewController.swift in Sources */,
+				379A5BEC1F161C38005BDBBF /* Warriors.swift in Sources */,
+				37F1EDA51F05E5090049AB8E /* AppDelegate.swift in Sources */,
+				379A5BE31F161C38005BDBBF /* StarRoamers.swift in Sources */,
+				379A5B921F16181B005BDBBF /* Card.swift in Sources */,
+				379A5BEA1F161C38005BDBBF /* Tricksters.swift in Sources */,
+				379A5BD01F161C37005BDBBF /* GiantAnts.swift in Sources */,
+				379A5BC81F161C37005BDBBF /* Dinosaurs.swift in Sources */,
+				379A5BED1F161C38005BDBBF /* Werewolves.swift in Sources */,
+				379A5B901F160E7C005BDBBF /* ListOfAllCardsAndFactions.swift in Sources */,
+				379A5BCE1F161C37005BDBBF /* Geeks.swift in Sources */,
+				379A5BCC1F161C37005BDBBF /* Elves.swift in Sources */,
+				370C6E701F30A98D00A6CB31 /* Explorers.swift in Sources */,
+				379A5BCA1F161C37005BDBBF /* Dwarves.swift in Sources */,
+				379A5B7C1F137073005BDBBF /* KillCollectionViewController.swift in Sources */,
+				379A5BDA1F161C37005BDBBF /* MythicGreeks.swift in Sources */,
+				379A5B7A1F137049005BDBBF /* TopCollectionViewController.swift in Sources */,
+				379A5BE61F161C38005BDBBF /* SuperSpies.swift in Sources */,
+				379A5BDE1F161C38005BDBBF /* Pirates.swift in Sources */,
+				379A5BC61F161C37005BDBBF /* Clerics.swift in Sources */,
+				379A5BE81F161C38005BDBBF /* TimeTravelers.swift in Sources */,
+				379A5B861F138364005BDBBF /* Factions.swift in Sources */,
+				379A5BFA1F161D85005BDBBF /* MinionAbility.swift in Sources */,
+				379A5BD11F161C37005BDBBF /* Halflings.swift in Sources */,
+				379A5BF91F161D85005BDBBF /* Minion.swift in Sources */,
+				379A5BF61F161D85005BDBBF /* ActionCard.swift in Sources */,
+				379A5BE71F161C38005BDBBF /* Thieves.swift in Sources */,
+				379A5BEE1F161C38005BDBBF /* Wizards.swift in Sources */,
+				379A5B841F137486005BDBBF /* CardTypeKillMoveExtraEtcViewController.swift in Sources */,
+				379A5BC71F161C37005BDBBF /* CyborgApes.swift in Sources */,
+				379A5BE91F161C38005BDBBF /* Tornados.swift in Sources */,
+				379A5BEF1F161C38005BDBBF /* Zombies.swift in Sources */,
+				379A5BE11F161C38005BDBBF /* ShapeShifters.swift in Sources */,
+				379A5BD41F161C37005BDBBF /* KillerPlants.swift in Sources */,
+				379A5BF81F161D85005BDBBF /* Faction.swift in Sources */,
+				379A5BD81F161C37005BDBBF /* MinionsOfCthulhu.swift in Sources */,
+				379A5BDF1F161C38005BDBBF /* Princesses.swift in Sources */,
+				379A5BDC1F161C38005BDBBF /* Ninjas.swift in Sources */,
+				379A5BE41F161C38005BDBBF /* SteamPunks.swift in Sources */,
+				379A5BE21F161C38005BDBBF /* Sharks.swift in Sources */,
+				379A5B821F13745B005BDBBF /* CardTypeMAandTopViewController.swift in Sources */,
+				379A5BCD1F161C37005BDBBF /* Fairies.swift in Sources */,
+				379A5BF71F161D85005BDBBF /* ActionCardAbility.swift in Sources */,
+				379A5BC51F161C37005BDBBF /* ChangerBots.swift in Sources */,
+				379A5BEB1F161C38005BDBBF /* Vampires.swift in Sources */,
+				379A5BC41F161C37005BDBBF /* BearCavalry.swift in Sources */,
+				370C6E711F30A98D00A6CB31 /* Grannies.swift in Sources */,
+				370C6E731F30A98D00A6CB31 /* TeddyBears.swift in Sources */,
+				379A5BE01F161C38005BDBBF /* Robots.swift in Sources */,
+				379A5BD31F161C37005BDBBF /* Innsmouth.swift in Sources */,
+				379A5BD71F161C37005BDBBF /* Mages.swift in Sources */,
+				379A5BD21F161C37005BDBBF /* IgNobles.swift in Sources */,
+				37F1EDAD1F05E5090049AB8E /* SmashUpCardAnalyzer.xcdatamodeld in Sources */,
+				379A5BD61F161C37005BDBBF /* MadScientists.swift in Sources */,
+				379A5BC91F161C37005BDBBF /* Dragons.swift in Sources */,
+				379A5BCF1F161C37005BDBBF /* Ghosts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F1EDB41F05E5090049AB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F1EDBD1F05E5090049AB8E /* SmashUpCardAnalyzerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F1EDBF1F05E5090049AB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F1EDC81F05E50A0049AB8E /* SmashUpCardAnalyzerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37F1EDBA1F05E5090049AB8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37F1EDA01F05E5090049AB8E /* SmashUpCardAnalyzer */;
+			targetProxy = 37F1EDB91F05E5090049AB8E /* PBXContainerItemProxy */;
+		};
+		37F1EDC51F05E5090049AB8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37F1EDA01F05E5090049AB8E /* SmashUpCardAnalyzer */;
+			targetProxy = 37F1EDC41F05E5090049AB8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37F1EDA81F05E5090049AB8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F1EDA91F05E5090049AB8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37F1EDB01F05E5090049AB8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F1EDB11F05E5090049AB8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37F1EDCA1F05E50A0049AB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37F1EDCB1F05E50A0049AB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37F1EDCD1F05E50A0049AB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T3K5P842PL;
+				INFOPLIST_FILE = SmashUpCardAnalyzer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.quaereveritatem.SmashUpCardAnalyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		37F1EDCE1F05E50A0049AB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T3K5P842PL;
+				INFOPLIST_FILE = SmashUpCardAnalyzer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.quaereveritatem.SmashUpCardAnalyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		37F1EDD01F05E50A0049AB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T3K5P842PL;
+				INFOPLIST_FILE = SmashUpCardAnalyzerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.quaereveritatem.SmashUpCardAnalyzerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmashUpCardAnalyzer.app/SmashUpCardAnalyzer";
+			};
+			name = Debug;
+		};
+		37F1EDD11F05E50A0049AB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T3K5P842PL;
+				INFOPLIST_FILE = SmashUpCardAnalyzerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.quaereveritatem.SmashUpCardAnalyzerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmashUpCardAnalyzer.app/SmashUpCardAnalyzer";
+			};
+			name = Release;
+		};
+		37F1EDD31F05E50A0049AB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T3K5P842PL;
+				INFOPLIST_FILE = SmashUpCardAnalyzerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.quaereveritatem.SmashUpCardAnalyzerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmashUpCardAnalyzer;
+			};
+			name = Debug;
+		};
+		37F1EDD41F05E50A0049AB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T3K5P842PL;
+				INFOPLIST_FILE = SmashUpCardAnalyzerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.quaereveritatem.SmashUpCardAnalyzerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmashUpCardAnalyzer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37F1ED9C1F05E5090049AB8E /* Build configuration list for PBXProject "SmashUpCardAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F1EDCA1F05E50A0049AB8E /* Debug */,
+				37F1EDCB1F05E50A0049AB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F1EDCC1F05E50A0049AB8E /* Build configuration list for PBXNativeTarget "SmashUpCardAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F1EDCD1F05E50A0049AB8E /* Debug */,
+				37F1EDCE1F05E50A0049AB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F1EDCF1F05E50A0049AB8E /* Build configuration list for PBXNativeTarget "SmashUpCardAnalyzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F1EDD01F05E50A0049AB8E /* Debug */,
+				37F1EDD11F05E50A0049AB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F1EDD21F05E50A0049AB8E /* Build configuration list for PBXNativeTarget "SmashUpCardAnalyzerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F1EDD31F05E50A0049AB8E /* Debug */,
+				37F1EDD41F05E50A0049AB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37F1EDAB1F05E5090049AB8E /* SmashUpCardAnalyzer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37F1EDAC1F05E5090049AB8E /* SmashUpCardAnalyzer.xcdatamodel */,
+			);
+			currentVersion = 37F1EDAC1F05E5090049AB8E /* SmashUpCardAnalyzer.xcdatamodel */;
+			path = SmashUpCardAnalyzer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37F1ED991F05E5090049AB8E /* Project object */;
+}

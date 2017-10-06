@@ -77,6 +77,8 @@
 		379A5BF81F161D85005BDBBF /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF31F161D85005BDBBF /* Faction.swift */; };
 		379A5BF91F161D85005BDBBF /* Minion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF41F161D85005BDBBF /* Minion.swift */; };
 		379A5BFA1F161D85005BDBBF /* MinionAbility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF51F161D85005BDBBF /* MinionAbility.swift */; };
+		37D230DB1F883888008FD168 /* Diplomata-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37D230DA1F883888008FD168 /* Diplomata-Regular.ttf */; };
+		37D230DD1F8838B6008FD168 /* Heroic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37D230DC1F8838B6008FD168 /* Heroic.ttf */; };
 		37F1EDA51F05E5090049AB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F1EDA41F05E5090049AB8E /* AppDelegate.swift */; };
 		37F1EDA71F05E5090049AB8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F1EDA61F05E5090049AB8E /* ViewController.swift */; };
 		37F1EDAA1F05E5090049AB8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F1EDA81F05E5090049AB8E /* Main.storyboard */; };
@@ -175,6 +177,8 @@
 		379A5BF31F161D85005BDBBF /* Faction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Faction.swift; path = ../../SmashUp/SmashUp/Faction.swift; sourceTree = "<group>"; };
 		379A5BF41F161D85005BDBBF /* Minion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Minion.swift; path = ../../SmashUp/SmashUp/Minion.swift; sourceTree = "<group>"; };
 		379A5BF51F161D85005BDBBF /* MinionAbility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinionAbility.swift; path = ../../SmashUp/SmashUp/MinionAbility.swift; sourceTree = "<group>"; };
+		37D230DA1F883888008FD168 /* Diplomata-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Diplomata-Regular.ttf"; path = "../../../../../DesignsOrArt/DesigningApps/FONTS/Diplomata/Diplomata-Regular.ttf"; sourceTree = "<group>"; };
+		37D230DC1F8838B6008FD168 /* Heroic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Heroic.ttf; path = ../../../../../DesignsOrArt/DesigningApps/FONTS/Heroic.ttf; sourceTree = "<group>"; };
 		37F1EDA11F05E5090049AB8E /* SmashUpCardAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashUpCardAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F1EDA41F05E5090049AB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37F1EDA61F05E5090049AB8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -327,6 +331,8 @@
 				379A5B931F161BB0005BDBBF /* Faction Classes */,
 				379A5B781F136EC6005BDBBF /* CollectionView */,
 				379A5B761F1356EF005BDBBF /* Diplomata-Regular.ttf */,
+				37D230DA1F883888008FD168 /* Diplomata-Regular.ttf */,
+				37D230DC1F8838B6008FD168 /* Heroic.ttf */,
 				379A5B741F0DA522005BDBBF /* Heroic.ttf */,
 				37F1EDA41F05E5090049AB8E /* AppDelegate.swift */,
 				37F1EDA61F05E5090049AB8E /* ViewController.swift */,
@@ -475,8 +481,10 @@
 				379A5B771F1356EF005BDBBF /* Diplomata-Regular.ttf in Resources */,
 				379A5B751F0DA522005BDBBF /* Heroic.ttf in Resources */,
 				37F1EDB21F05E5090049AB8E /* LaunchScreen.storyboard in Resources */,
+				37D230DB1F883888008FD168 /* Diplomata-Regular.ttf in Resources */,
 				37F1EDAF1F05E5090049AB8E /* Assets.xcassets in Resources */,
 				37F1EDAA1F05E5090049AB8E /* Main.storyboard in Resources */,
+				37D230DD1F8838B6008FD168 /* Heroic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

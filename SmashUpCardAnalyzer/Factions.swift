@@ -26,7 +26,8 @@ class Factions {
         "Princesses", "Dwarves", "Elves", "Clerics",
         "Halflings", "Mages", "Orcs", "Thieves", "Warriors", "Dragons",
         "Mythic Greeks", "Sharks", "SuperHeroes", "Tornados", "AstroKnights",
-        "Star Roamers", "Changer Bots", "IgNobles", "Explorers", "Grannies", "Rock Stars", "Teddy Bears", "All Stars"]
+        "Star Roamers", "Changer Bots", "IgNobles", "Explorers", "Grannies", "Rock Stars", "Teddy Bears", "All Stars",
+        "Magical Girls", "Mega Troopers", "Itty Critters", "Kaiju"]
     
     
 
@@ -40,7 +41,8 @@ class Factions {
         "Princesses", "Dwarves", "Elves", "Clerics",
         "Halflings", "Mages", "Orcs", "Thieves", "Warriors", "Dragons",
         "MythicGreeks", "Sharks", "SuperHeroes", "Tornados", "AstroKnights",
-        "StarRoamers", "ChangerBots", "IgNobles", "Explorers", "Grannies", "RockStars", "TeddyBears", "AllStars"]
+        "StarRoamers", "ChangerBots", "IgNobles", "Explorers", "Grannies", "RockStars", "TeddyBears", "AllStars",
+        "MagicalGirls", "MegaTroopers", "IttyCritters", "Kaiju"]
 
 
 }

@@ -7,13 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		370C6E6F1F30A98D00A6CB31 /* AllStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6E6A1F30A98D00A6CB31 /* AllStars.swift */; };
-		370C6E701F30A98D00A6CB31 /* Explorers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6E6B1F30A98D00A6CB31 /* Explorers.swift */; };
-		370C6E711F30A98D00A6CB31 /* Grannies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6E6C1F30A98D00A6CB31 /* Grannies.swift */; };
-		370C6E721F30A98D00A6CB31 /* RockStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6E6D1F30A98D00A6CB31 /* RockStars.swift */; };
-		370C6E731F30A98D00A6CB31 /* TeddyBears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C6E6E1F30A98D00A6CB31 /* TeddyBears.swift */; };
-		379A5B751F0DA522005BDBBF /* Heroic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 379A5B741F0DA522005BDBBF /* Heroic.ttf */; };
-		379A5B771F1356EF005BDBBF /* Diplomata-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 379A5B761F1356EF005BDBBF /* Diplomata-Regular.ttf */; };
+		3754BE621FD5E7480067DAC5 /* orbitron-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3754BE5F1FD5E7470067DAC5 /* orbitron-bold.otf */; };
+		3754BE631FD5E7480067DAC5 /* orbitron-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3754BE601FD5E7470067DAC5 /* orbitron-medium.otf */; };
+		3754BE641FD5E7480067DAC5 /* orbitron-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3754BE611FD5E7470067DAC5 /* orbitron-black.otf */; };
 		379A5B7A1F137049005BDBBF /* TopCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B791F137049005BDBBF /* TopCollectionViewController.swift */; };
 		379A5B7C1F137073005BDBBF /* KillCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B7B1F137073005BDBBF /* KillCollectionViewController.swift */; };
 		379A5B7E1F137117005BDBBF /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B7D1F137117005BDBBF /* TopCollectionViewCell.swift */; };
@@ -24,61 +20,70 @@
 		379A5B8A1F15F44E005BDBBF /* SearchOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B891F15F44E005BDBBF /* SearchOptions.swift */; };
 		379A5B8C1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B8B1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift */; };
 		379A5B8E1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B8D1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift */; };
-		379A5B901F160E7C005BDBBF /* ListOfAllCardsAndFactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B8F1F160E7C005BDBBF /* ListOfAllCardsAndFactions.swift */; };
 		379A5B921F16181B005BDBBF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B911F16181B005BDBBF /* Card.swift */; };
-		379A5BC21F161C37005BDBBF /* Aliens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B941F161C37005BDBBF /* Aliens.swift */; };
-		379A5BC31F161C37005BDBBF /* AstroKnights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B951F161C37005BDBBF /* AstroKnights.swift */; };
-		379A5BC41F161C37005BDBBF /* BearCavalry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B961F161C37005BDBBF /* BearCavalry.swift */; };
-		379A5BC51F161C37005BDBBF /* ChangerBots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B971F161C37005BDBBF /* ChangerBots.swift */; };
-		379A5BC61F161C37005BDBBF /* Clerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B981F161C37005BDBBF /* Clerics.swift */; };
-		379A5BC71F161C37005BDBBF /* CyborgApes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B991F161C37005BDBBF /* CyborgApes.swift */; };
-		379A5BC81F161C37005BDBBF /* Dinosaurs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B9A1F161C37005BDBBF /* Dinosaurs.swift */; };
-		379A5BC91F161C37005BDBBF /* Dragons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B9B1F161C37005BDBBF /* Dragons.swift */; };
-		379A5BCA1F161C37005BDBBF /* Dwarves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B9C1F161C37005BDBBF /* Dwarves.swift */; };
-		379A5BCB1F161C37005BDBBF /* ElderThings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B9D1F161C37005BDBBF /* ElderThings.swift */; };
-		379A5BCC1F161C37005BDBBF /* Elves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B9E1F161C37005BDBBF /* Elves.swift */; };
-		379A5BCD1F161C37005BDBBF /* Fairies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B9F1F161C37005BDBBF /* Fairies.swift */; };
-		379A5BCE1F161C37005BDBBF /* Geeks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA01F161C37005BDBBF /* Geeks.swift */; };
-		379A5BCF1F161C37005BDBBF /* Ghosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA11F161C37005BDBBF /* Ghosts.swift */; };
-		379A5BD01F161C37005BDBBF /* GiantAnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA21F161C37005BDBBF /* GiantAnts.swift */; };
-		379A5BD11F161C37005BDBBF /* Halflings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA31F161C37005BDBBF /* Halflings.swift */; };
-		379A5BD21F161C37005BDBBF /* IgNobles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA41F161C37005BDBBF /* IgNobles.swift */; };
-		379A5BD31F161C37005BDBBF /* Innsmouth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA51F161C37005BDBBF /* Innsmouth.swift */; };
-		379A5BD41F161C37005BDBBF /* KillerPlants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA61F161C37005BDBBF /* KillerPlants.swift */; };
-		379A5BD51F161C37005BDBBF /* KittyCats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA71F161C37005BDBBF /* KittyCats.swift */; };
-		379A5BD61F161C37005BDBBF /* MadScientists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA81F161C37005BDBBF /* MadScientists.swift */; };
-		379A5BD71F161C37005BDBBF /* Mages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BA91F161C37005BDBBF /* Mages.swift */; };
-		379A5BD81F161C37005BDBBF /* MinionsOfCthulhu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BAA1F161C37005BDBBF /* MinionsOfCthulhu.swift */; };
-		379A5BD91F161C37005BDBBF /* MiskatonicUniversity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BAB1F161C37005BDBBF /* MiskatonicUniversity.swift */; };
-		379A5BDA1F161C37005BDBBF /* MythicGreeks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BAC1F161C37005BDBBF /* MythicGreeks.swift */; };
-		379A5BDB1F161C38005BDBBF /* MythicHorses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BAD1F161C37005BDBBF /* MythicHorses.swift */; };
-		379A5BDC1F161C38005BDBBF /* Ninjas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BAE1F161C37005BDBBF /* Ninjas.swift */; };
-		379A5BDD1F161C38005BDBBF /* Orcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BAF1F161C37005BDBBF /* Orcs.swift */; };
-		379A5BDE1F161C38005BDBBF /* Pirates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB01F161C37005BDBBF /* Pirates.swift */; };
-		379A5BDF1F161C38005BDBBF /* Princesses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB11F161C37005BDBBF /* Princesses.swift */; };
-		379A5BE01F161C38005BDBBF /* Robots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB21F161C37005BDBBF /* Robots.swift */; };
-		379A5BE11F161C38005BDBBF /* ShapeShifters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB31F161C37005BDBBF /* ShapeShifters.swift */; };
-		379A5BE21F161C38005BDBBF /* Sharks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB41F161C37005BDBBF /* Sharks.swift */; };
-		379A5BE31F161C38005BDBBF /* StarRoamers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB51F161C37005BDBBF /* StarRoamers.swift */; };
-		379A5BE41F161C38005BDBBF /* SteamPunks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB61F161C37005BDBBF /* SteamPunks.swift */; };
-		379A5BE51F161C38005BDBBF /* SuperHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB71F161C37005BDBBF /* SuperHeroes.swift */; };
-		379A5BE61F161C38005BDBBF /* SuperSpies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB81F161C37005BDBBF /* SuperSpies.swift */; };
-		379A5BE71F161C38005BDBBF /* Thieves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BB91F161C37005BDBBF /* Thieves.swift */; };
-		379A5BE81F161C38005BDBBF /* TimeTravelers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BBA1F161C37005BDBBF /* TimeTravelers.swift */; };
-		379A5BE91F161C38005BDBBF /* Tornados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BBB1F161C37005BDBBF /* Tornados.swift */; };
-		379A5BEA1F161C38005BDBBF /* Tricksters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BBC1F161C37005BDBBF /* Tricksters.swift */; };
-		379A5BEB1F161C38005BDBBF /* Vampires.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BBD1F161C37005BDBBF /* Vampires.swift */; };
-		379A5BEC1F161C38005BDBBF /* Warriors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BBE1F161C37005BDBBF /* Warriors.swift */; };
-		379A5BED1F161C38005BDBBF /* Werewolves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BBF1F161C37005BDBBF /* Werewolves.swift */; };
-		379A5BEE1F161C38005BDBBF /* Wizards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BC01F161C37005BDBBF /* Wizards.swift */; };
-		379A5BEF1F161C38005BDBBF /* Zombies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BC11F161C37005BDBBF /* Zombies.swift */; };
-		379A5BF61F161D85005BDBBF /* ActionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF11F161D85005BDBBF /* ActionCard.swift */; };
-		379A5BF71F161D85005BDBBF /* ActionCardAbility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF21F161D85005BDBBF /* ActionCardAbility.swift */; };
-		379A5BF81F161D85005BDBBF /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF31F161D85005BDBBF /* Faction.swift */; };
-		379A5BF91F161D85005BDBBF /* Minion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF41F161D85005BDBBF /* Minion.swift */; };
-		379A5BFA1F161D85005BDBBF /* MinionAbility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5BF51F161D85005BDBBF /* MinionAbility.swift */; };
 		37D230DB1F883888008FD168 /* Diplomata-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37D230DA1F883888008FD168 /* Diplomata-Regular.ttf */; };
 		37D230DD1F8838B6008FD168 /* Heroic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37D230DC1F8838B6008FD168 /* Heroic.ttf */; };
+		37D230E41F8CF6B1008FD168 /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230DE1F8CF6B1008FD168 /* Faction.swift */; };
+		37D230E51F8CF6B1008FD168 /* ListOfAllCardsAndFactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230DF1F8CF6B1008FD168 /* ListOfAllCardsAndFactions.swift */; };
+		37D230E61F8CF6B1008FD168 /* Minion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230E01F8CF6B1008FD168 /* Minion.swift */; };
+		37D230E71F8CF6B1008FD168 /* MinionAbility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230E11F8CF6B1008FD168 /* MinionAbility.swift */; };
+		37D230E81F8CF6B1008FD168 /* ActionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230E21F8CF6B1008FD168 /* ActionCard.swift */; };
+		37D230E91F8CF6B1008FD168 /* ActionCardAbility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230E31F8CF6B1008FD168 /* ActionCardAbility.swift */; };
+		37D231211F8CF75E008FD168 /* IttyCritters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230EA1F8CF75E008FD168 /* IttyCritters.swift */; };
+		37D231221F8CF75E008FD168 /* Kaiju.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230EB1F8CF75E008FD168 /* Kaiju.swift */; };
+		37D231231F8CF75E008FD168 /* MagicalGirls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230EC1F8CF75E008FD168 /* MagicalGirls.swift */; };
+		37D231241F8CF75E008FD168 /* MegaTroopers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230ED1F8CF75E008FD168 /* MegaTroopers.swift */; };
+		37D231251F8CF75E008FD168 /* AllStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230EE1F8CF75E008FD168 /* AllStars.swift */; };
+		37D231261F8CF75E008FD168 /* Explorers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230EF1F8CF75E008FD168 /* Explorers.swift */; };
+		37D231271F8CF75E008FD168 /* Grannies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230F01F8CF75E008FD168 /* Grannies.swift */; };
+		37D231281F8CF75E008FD168 /* RockStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230F11F8CF75E008FD168 /* RockStars.swift */; };
+		37D231291F8CF75E008FD168 /* Sharks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230F21F8CF75E008FD168 /* Sharks.swift */; };
+		37D2312A1F8CF75E008FD168 /* StarRoamers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230F31F8CF75E008FD168 /* StarRoamers.swift */; };
+		37D2312B1F8CF75E008FD168 /* SuperHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230F41F8CF75E008FD168 /* SuperHeroes.swift */; };
+		37D2312C1F8CF75E008FD168 /* TeddyBears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230F51F8CF75E008FD168 /* TeddyBears.swift */; };
+		37D2312D1F8CF75E008FD168 /* Tornados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230F61F8CF75E008FD168 /* Tornados.swift */; };
+		37D2312E1F8CF75E008FD168 /* Warriors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230F71F8CF75E008FD168 /* Warriors.swift */; };
+		37D2312F1F8CF75E008FD168 /* Aliens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230F81F8CF75E008FD168 /* Aliens.swift */; };
+		37D231301F8CF75E008FD168 /* AstroKnights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230F91F8CF75E008FD168 /* AstroKnights.swift */; };
+		37D231311F8CF75E008FD168 /* ChangerBots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230FA1F8CF75E008FD168 /* ChangerBots.swift */; };
+		37D231321F8CF75E008FD168 /* Dragons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230FB1F8CF75E008FD168 /* Dragons.swift */; };
+		37D231331F8CF75E008FD168 /* IgNobles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230FC1F8CF75E008FD168 /* IgNobles.swift */; };
+		37D231341F8CF75E008FD168 /* MythicGreeks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230FD1F8CF75E008FD168 /* MythicGreeks.swift */; };
+		37D231351F8CF75E008FD168 /* BearCavalry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230FE1F8CF75E008FD168 /* BearCavalry.swift */; };
+		37D231361F8CF75E008FD168 /* Clerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D230FF1F8CF75E008FD168 /* Clerics.swift */; };
+		37D231371F8CF75E008FD168 /* CyborgApes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231001F8CF75E008FD168 /* CyborgApes.swift */; };
+		37D231381F8CF75E008FD168 /* Dinosaurs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231011F8CF75E008FD168 /* Dinosaurs.swift */; };
+		37D231391F8CF75E008FD168 /* Dwarves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231021F8CF75E008FD168 /* Dwarves.swift */; };
+		37D2313A1F8CF75E008FD168 /* ElderThings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231031F8CF75E008FD168 /* ElderThings.swift */; };
+		37D2313B1F8CF75E008FD168 /* Elves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231041F8CF75E008FD168 /* Elves.swift */; };
+		37D2313C1F8CF75E008FD168 /* Fairies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231051F8CF75E008FD168 /* Fairies.swift */; };
+		37D2313D1F8CF75E008FD168 /* Geeks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231061F8CF75E008FD168 /* Geeks.swift */; };
+		37D2313E1F8CF75E008FD168 /* Ghosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231071F8CF75E008FD168 /* Ghosts.swift */; };
+		37D2313F1F8CF75E008FD168 /* GiantAnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231081F8CF75E008FD168 /* GiantAnts.swift */; };
+		37D231401F8CF75E008FD168 /* Halflings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231091F8CF75E008FD168 /* Halflings.swift */; };
+		37D231411F8CF75E008FD168 /* Innsmouth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2310A1F8CF75E008FD168 /* Innsmouth.swift */; };
+		37D231421F8CF75E008FD168 /* KillerPlants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2310B1F8CF75E008FD168 /* KillerPlants.swift */; };
+		37D231431F8CF75E008FD168 /* KittyCats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2310C1F8CF75E008FD168 /* KittyCats.swift */; };
+		37D231441F8CF75E008FD168 /* MadScientists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2310D1F8CF75E008FD168 /* MadScientists.swift */; };
+		37D231451F8CF75E008FD168 /* Mages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2310E1F8CF75E008FD168 /* Mages.swift */; };
+		37D231461F8CF75E008FD168 /* MinionsOfCthulhu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2310F1F8CF75E008FD168 /* MinionsOfCthulhu.swift */; };
+		37D231471F8CF75E008FD168 /* MiskatonicUniversity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231101F8CF75E008FD168 /* MiskatonicUniversity.swift */; };
+		37D231481F8CF75E008FD168 /* MythicHorses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231111F8CF75E008FD168 /* MythicHorses.swift */; };
+		37D231491F8CF75E008FD168 /* Ninjas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231121F8CF75E008FD168 /* Ninjas.swift */; };
+		37D2314A1F8CF75E008FD168 /* Orcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231131F8CF75E008FD168 /* Orcs.swift */; };
+		37D2314B1F8CF75E008FD168 /* Pirates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231141F8CF75E008FD168 /* Pirates.swift */; };
+		37D2314C1F8CF75E008FD168 /* Princesses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231151F8CF75E008FD168 /* Princesses.swift */; };
+		37D2314D1F8CF75E008FD168 /* Robots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231161F8CF75E008FD168 /* Robots.swift */; };
+		37D2314E1F8CF75E008FD168 /* ShapeShifters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231171F8CF75E008FD168 /* ShapeShifters.swift */; };
+		37D2314F1F8CF75E008FD168 /* SteamPunks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231181F8CF75E008FD168 /* SteamPunks.swift */; };
+		37D231501F8CF75E008FD168 /* SuperSpies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231191F8CF75E008FD168 /* SuperSpies.swift */; };
+		37D231511F8CF75E008FD168 /* Thieves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2311A1F8CF75E008FD168 /* Thieves.swift */; };
+		37D231521F8CF75E008FD168 /* TimeTravelers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2311B1F8CF75E008FD168 /* TimeTravelers.swift */; };
+		37D231531F8CF75E008FD168 /* Tricksters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2311C1F8CF75E008FD168 /* Tricksters.swift */; };
+		37D231541F8CF75E008FD168 /* Vampires.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2311D1F8CF75E008FD168 /* Vampires.swift */; };
+		37D231551F8CF75E008FD168 /* Werewolves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2311E1F8CF75E008FD168 /* Werewolves.swift */; };
+		37D231561F8CF75E008FD168 /* Wizards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2311F1F8CF75E008FD168 /* Wizards.swift */; };
+		37D231571F8CF75E008FD168 /* Zombies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D231201F8CF75E008FD168 /* Zombies.swift */; };
 		37F1EDA51F05E5090049AB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F1EDA41F05E5090049AB8E /* AppDelegate.swift */; };
 		37F1EDA71F05E5090049AB8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F1EDA61F05E5090049AB8E /* ViewController.swift */; };
 		37F1EDAA1F05E5090049AB8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F1EDA81F05E5090049AB8E /* Main.storyboard */; };
@@ -107,13 +112,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		370C6E6A1F30A98D00A6CB31 /* AllStars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllStars.swift; path = ../../SmashUp/SmashUp/AllStars.swift; sourceTree = "<group>"; };
-		370C6E6B1F30A98D00A6CB31 /* Explorers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Explorers.swift; path = ../../SmashUp/SmashUp/Explorers.swift; sourceTree = "<group>"; };
-		370C6E6C1F30A98D00A6CB31 /* Grannies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Grannies.swift; path = ../../SmashUp/SmashUp/Grannies.swift; sourceTree = "<group>"; };
-		370C6E6D1F30A98D00A6CB31 /* RockStars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RockStars.swift; path = ../../SmashUp/SmashUp/RockStars.swift; sourceTree = "<group>"; };
-		370C6E6E1F30A98D00A6CB31 /* TeddyBears.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeddyBears.swift; path = ../../SmashUp/SmashUp/TeddyBears.swift; sourceTree = "<group>"; };
-		379A5B741F0DA522005BDBBF /* Heroic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Heroic.ttf; path = ../../../../DesignsOrArt/DesigningApps/FONTS/Heroic.ttf; sourceTree = "<group>"; };
-		379A5B761F1356EF005BDBBF /* Diplomata-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Diplomata-Regular.ttf"; path = "../../../../DesignsOrArt/DesigningApps/FONTS/Diplomata/Diplomata-Regular.ttf"; sourceTree = "<group>"; };
+		3754BE5F1FD5E7470067DAC5 /* orbitron-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "orbitron-bold.otf"; path = "../../../FuturePicks/FuturePicks/Resources/Fonts/orbitron-bold.otf"; sourceTree = "<group>"; };
+		3754BE601FD5E7470067DAC5 /* orbitron-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "orbitron-medium.otf"; path = "../../../FuturePicks/FuturePicks/Resources/Fonts/orbitron-medium.otf"; sourceTree = "<group>"; };
+		3754BE611FD5E7470067DAC5 /* orbitron-black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "orbitron-black.otf"; path = "../../../FuturePicks/FuturePicks/Resources/Fonts/orbitron-black.otf"; sourceTree = "<group>"; };
 		379A5B791F137049005BDBBF /* TopCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCollectionViewController.swift; sourceTree = "<group>"; };
 		379A5B7B1F137073005BDBBF /* KillCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KillCollectionViewController.swift; sourceTree = "<group>"; };
 		379A5B7D1F137117005BDBBF /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -124,61 +125,70 @@
 		379A5B891F15F44E005BDBBF /* SearchOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchOptions.swift; sourceTree = "<group>"; };
 		379A5B8B1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchThruEntireDeckViewController.swift; sourceTree = "<group>"; };
 		379A5B8D1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAllCollectionViewCell.swift; sourceTree = "<group>"; };
-		379A5B8F1F160E7C005BDBBF /* ListOfAllCardsAndFactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOfAllCardsAndFactions.swift; path = ../../SmashUp/SmashUp/ListOfAllCardsAndFactions.swift; sourceTree = "<group>"; };
 		379A5B911F16181B005BDBBF /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		379A5B941F161C37005BDBBF /* Aliens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Aliens.swift; path = ../../SmashUp/SmashUp/Aliens.swift; sourceTree = "<group>"; };
-		379A5B951F161C37005BDBBF /* AstroKnights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AstroKnights.swift; path = ../../SmashUp/SmashUp/AstroKnights.swift; sourceTree = "<group>"; };
-		379A5B961F161C37005BDBBF /* BearCavalry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BearCavalry.swift; path = ../../SmashUp/SmashUp/BearCavalry.swift; sourceTree = "<group>"; };
-		379A5B971F161C37005BDBBF /* ChangerBots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangerBots.swift; path = ../../SmashUp/SmashUp/ChangerBots.swift; sourceTree = "<group>"; };
-		379A5B981F161C37005BDBBF /* Clerics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Clerics.swift; path = ../../SmashUp/SmashUp/Clerics.swift; sourceTree = "<group>"; };
-		379A5B991F161C37005BDBBF /* CyborgApes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CyborgApes.swift; path = ../../SmashUp/SmashUp/CyborgApes.swift; sourceTree = "<group>"; };
-		379A5B9A1F161C37005BDBBF /* Dinosaurs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dinosaurs.swift; path = ../../SmashUp/SmashUp/Dinosaurs.swift; sourceTree = "<group>"; };
-		379A5B9B1F161C37005BDBBF /* Dragons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dragons.swift; path = ../../SmashUp/SmashUp/Dragons.swift; sourceTree = "<group>"; };
-		379A5B9C1F161C37005BDBBF /* Dwarves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dwarves.swift; path = ../../SmashUp/SmashUp/Dwarves.swift; sourceTree = "<group>"; };
-		379A5B9D1F161C37005BDBBF /* ElderThings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElderThings.swift; path = ../../SmashUp/SmashUp/ElderThings.swift; sourceTree = "<group>"; };
-		379A5B9E1F161C37005BDBBF /* Elves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Elves.swift; path = ../../SmashUp/SmashUp/Elves.swift; sourceTree = "<group>"; };
-		379A5B9F1F161C37005BDBBF /* Fairies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fairies.swift; path = ../../SmashUp/SmashUp/Fairies.swift; sourceTree = "<group>"; };
-		379A5BA01F161C37005BDBBF /* Geeks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Geeks.swift; path = ../../SmashUp/SmashUp/Geeks.swift; sourceTree = "<group>"; };
-		379A5BA11F161C37005BDBBF /* Ghosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ghosts.swift; path = ../../SmashUp/SmashUp/Ghosts.swift; sourceTree = "<group>"; };
-		379A5BA21F161C37005BDBBF /* GiantAnts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GiantAnts.swift; path = ../../SmashUp/SmashUp/GiantAnts.swift; sourceTree = "<group>"; };
-		379A5BA31F161C37005BDBBF /* Halflings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Halflings.swift; path = ../../SmashUp/SmashUp/Halflings.swift; sourceTree = "<group>"; };
-		379A5BA41F161C37005BDBBF /* IgNobles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IgNobles.swift; path = ../../SmashUp/SmashUp/IgNobles.swift; sourceTree = "<group>"; };
-		379A5BA51F161C37005BDBBF /* Innsmouth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Innsmouth.swift; path = ../../SmashUp/SmashUp/Innsmouth.swift; sourceTree = "<group>"; };
-		379A5BA61F161C37005BDBBF /* KillerPlants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KillerPlants.swift; path = ../../SmashUp/SmashUp/KillerPlants.swift; sourceTree = "<group>"; };
-		379A5BA71F161C37005BDBBF /* KittyCats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KittyCats.swift; path = ../../SmashUp/SmashUp/KittyCats.swift; sourceTree = "<group>"; };
-		379A5BA81F161C37005BDBBF /* MadScientists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MadScientists.swift; path = ../../SmashUp/SmashUp/MadScientists.swift; sourceTree = "<group>"; };
-		379A5BA91F161C37005BDBBF /* Mages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mages.swift; path = ../../SmashUp/SmashUp/Mages.swift; sourceTree = "<group>"; };
-		379A5BAA1F161C37005BDBBF /* MinionsOfCthulhu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinionsOfCthulhu.swift; path = ../../SmashUp/SmashUp/MinionsOfCthulhu.swift; sourceTree = "<group>"; };
-		379A5BAB1F161C37005BDBBF /* MiskatonicUniversity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MiskatonicUniversity.swift; path = ../../SmashUp/SmashUp/MiskatonicUniversity.swift; sourceTree = "<group>"; };
-		379A5BAC1F161C37005BDBBF /* MythicGreeks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MythicGreeks.swift; path = ../../SmashUp/SmashUp/MythicGreeks.swift; sourceTree = "<group>"; };
-		379A5BAD1F161C37005BDBBF /* MythicHorses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MythicHorses.swift; path = ../../SmashUp/SmashUp/MythicHorses.swift; sourceTree = "<group>"; };
-		379A5BAE1F161C37005BDBBF /* Ninjas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ninjas.swift; path = ../../SmashUp/SmashUp/Ninjas.swift; sourceTree = "<group>"; };
-		379A5BAF1F161C37005BDBBF /* Orcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Orcs.swift; path = ../../SmashUp/SmashUp/Orcs.swift; sourceTree = "<group>"; };
-		379A5BB01F161C37005BDBBF /* Pirates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pirates.swift; path = ../../SmashUp/SmashUp/Pirates.swift; sourceTree = "<group>"; };
-		379A5BB11F161C37005BDBBF /* Princesses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Princesses.swift; path = ../../SmashUp/SmashUp/Princesses.swift; sourceTree = "<group>"; };
-		379A5BB21F161C37005BDBBF /* Robots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Robots.swift; path = ../../SmashUp/SmashUp/Robots.swift; sourceTree = "<group>"; };
-		379A5BB31F161C37005BDBBF /* ShapeShifters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShapeShifters.swift; path = ../../SmashUp/SmashUp/ShapeShifters.swift; sourceTree = "<group>"; };
-		379A5BB41F161C37005BDBBF /* Sharks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sharks.swift; path = ../../SmashUp/SmashUp/Sharks.swift; sourceTree = "<group>"; };
-		379A5BB51F161C37005BDBBF /* StarRoamers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarRoamers.swift; path = ../../SmashUp/SmashUp/StarRoamers.swift; sourceTree = "<group>"; };
-		379A5BB61F161C37005BDBBF /* SteamPunks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SteamPunks.swift; path = ../../SmashUp/SmashUp/SteamPunks.swift; sourceTree = "<group>"; };
-		379A5BB71F161C37005BDBBF /* SuperHeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuperHeroes.swift; path = ../../SmashUp/SmashUp/SuperHeroes.swift; sourceTree = "<group>"; };
-		379A5BB81F161C37005BDBBF /* SuperSpies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuperSpies.swift; path = ../../SmashUp/SmashUp/SuperSpies.swift; sourceTree = "<group>"; };
-		379A5BB91F161C37005BDBBF /* Thieves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Thieves.swift; path = ../../SmashUp/SmashUp/Thieves.swift; sourceTree = "<group>"; };
-		379A5BBA1F161C37005BDBBF /* TimeTravelers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeTravelers.swift; path = ../../SmashUp/SmashUp/TimeTravelers.swift; sourceTree = "<group>"; };
-		379A5BBB1F161C37005BDBBF /* Tornados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tornados.swift; path = ../../SmashUp/SmashUp/Tornados.swift; sourceTree = "<group>"; };
-		379A5BBC1F161C37005BDBBF /* Tricksters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tricksters.swift; path = ../../SmashUp/SmashUp/Tricksters.swift; sourceTree = "<group>"; };
-		379A5BBD1F161C37005BDBBF /* Vampires.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vampires.swift; path = ../../SmashUp/SmashUp/Vampires.swift; sourceTree = "<group>"; };
-		379A5BBE1F161C37005BDBBF /* Warriors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Warriors.swift; path = ../../SmashUp/SmashUp/Warriors.swift; sourceTree = "<group>"; };
-		379A5BBF1F161C37005BDBBF /* Werewolves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Werewolves.swift; path = ../../SmashUp/SmashUp/Werewolves.swift; sourceTree = "<group>"; };
-		379A5BC01F161C37005BDBBF /* Wizards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Wizards.swift; path = ../../SmashUp/SmashUp/Wizards.swift; sourceTree = "<group>"; };
-		379A5BC11F161C37005BDBBF /* Zombies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Zombies.swift; path = ../../SmashUp/SmashUp/Zombies.swift; sourceTree = "<group>"; };
-		379A5BF11F161D85005BDBBF /* ActionCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionCard.swift; path = ../../SmashUp/SmashUp/ActionCard.swift; sourceTree = "<group>"; };
-		379A5BF21F161D85005BDBBF /* ActionCardAbility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionCardAbility.swift; path = ../../SmashUp/SmashUp/ActionCardAbility.swift; sourceTree = "<group>"; };
-		379A5BF31F161D85005BDBBF /* Faction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Faction.swift; path = ../../SmashUp/SmashUp/Faction.swift; sourceTree = "<group>"; };
-		379A5BF41F161D85005BDBBF /* Minion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Minion.swift; path = ../../SmashUp/SmashUp/Minion.swift; sourceTree = "<group>"; };
-		379A5BF51F161D85005BDBBF /* MinionAbility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinionAbility.swift; path = ../../SmashUp/SmashUp/MinionAbility.swift; sourceTree = "<group>"; };
 		37D230DA1F883888008FD168 /* Diplomata-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Diplomata-Regular.ttf"; path = "../../../../../DesignsOrArt/DesigningApps/FONTS/Diplomata/Diplomata-Regular.ttf"; sourceTree = "<group>"; };
 		37D230DC1F8838B6008FD168 /* Heroic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Heroic.ttf; path = ../../../../../DesignsOrArt/DesigningApps/FONTS/Heroic.ttf; sourceTree = "<group>"; };
+		37D230DE1F8CF6B1008FD168 /* Faction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Faction.swift; path = ../../../SmashUp/SmashUp/Faction.swift; sourceTree = "<group>"; };
+		37D230DF1F8CF6B1008FD168 /* ListOfAllCardsAndFactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOfAllCardsAndFactions.swift; path = ../../../SmashUp/SmashUp/ListOfAllCardsAndFactions.swift; sourceTree = "<group>"; };
+		37D230E01F8CF6B1008FD168 /* Minion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Minion.swift; path = ../../../SmashUp/SmashUp/Minion.swift; sourceTree = "<group>"; };
+		37D230E11F8CF6B1008FD168 /* MinionAbility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinionAbility.swift; path = ../../../SmashUp/SmashUp/MinionAbility.swift; sourceTree = "<group>"; };
+		37D230E21F8CF6B1008FD168 /* ActionCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionCard.swift; path = ../../../SmashUp/SmashUp/ActionCard.swift; sourceTree = "<group>"; };
+		37D230E31F8CF6B1008FD168 /* ActionCardAbility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionCardAbility.swift; path = ../../../SmashUp/SmashUp/ActionCardAbility.swift; sourceTree = "<group>"; };
+		37D230EA1F8CF75E008FD168 /* IttyCritters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IttyCritters.swift; path = ../../../SmashUp/SmashUp/IttyCritters.swift; sourceTree = "<group>"; };
+		37D230EB1F8CF75E008FD168 /* Kaiju.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Kaiju.swift; path = ../../../SmashUp/SmashUp/Kaiju.swift; sourceTree = "<group>"; };
+		37D230EC1F8CF75E008FD168 /* MagicalGirls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MagicalGirls.swift; path = ../../../SmashUp/SmashUp/MagicalGirls.swift; sourceTree = "<group>"; };
+		37D230ED1F8CF75E008FD168 /* MegaTroopers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MegaTroopers.swift; path = ../../../SmashUp/SmashUp/MegaTroopers.swift; sourceTree = "<group>"; };
+		37D230EE1F8CF75E008FD168 /* AllStars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllStars.swift; path = ../../../SmashUp/SmashUp/AllStars.swift; sourceTree = "<group>"; };
+		37D230EF1F8CF75E008FD168 /* Explorers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Explorers.swift; path = ../../../SmashUp/SmashUp/Explorers.swift; sourceTree = "<group>"; };
+		37D230F01F8CF75E008FD168 /* Grannies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Grannies.swift; path = ../../../SmashUp/SmashUp/Grannies.swift; sourceTree = "<group>"; };
+		37D230F11F8CF75E008FD168 /* RockStars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RockStars.swift; path = ../../../SmashUp/SmashUp/RockStars.swift; sourceTree = "<group>"; };
+		37D230F21F8CF75E008FD168 /* Sharks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sharks.swift; path = ../../../SmashUp/SmashUp/Sharks.swift; sourceTree = "<group>"; };
+		37D230F31F8CF75E008FD168 /* StarRoamers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarRoamers.swift; path = ../../../SmashUp/SmashUp/StarRoamers.swift; sourceTree = "<group>"; };
+		37D230F41F8CF75E008FD168 /* SuperHeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuperHeroes.swift; path = ../../../SmashUp/SmashUp/SuperHeroes.swift; sourceTree = "<group>"; };
+		37D230F51F8CF75E008FD168 /* TeddyBears.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeddyBears.swift; path = ../../../SmashUp/SmashUp/TeddyBears.swift; sourceTree = "<group>"; };
+		37D230F61F8CF75E008FD168 /* Tornados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tornados.swift; path = ../../../SmashUp/SmashUp/Tornados.swift; sourceTree = "<group>"; };
+		37D230F71F8CF75E008FD168 /* Warriors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Warriors.swift; path = ../../../SmashUp/SmashUp/Warriors.swift; sourceTree = "<group>"; };
+		37D230F81F8CF75E008FD168 /* Aliens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Aliens.swift; path = ../../../SmashUp/SmashUp/Aliens.swift; sourceTree = "<group>"; };
+		37D230F91F8CF75E008FD168 /* AstroKnights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AstroKnights.swift; path = ../../../SmashUp/SmashUp/AstroKnights.swift; sourceTree = "<group>"; };
+		37D230FA1F8CF75E008FD168 /* ChangerBots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangerBots.swift; path = ../../../SmashUp/SmashUp/ChangerBots.swift; sourceTree = "<group>"; };
+		37D230FB1F8CF75E008FD168 /* Dragons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dragons.swift; path = ../../../SmashUp/SmashUp/Dragons.swift; sourceTree = "<group>"; };
+		37D230FC1F8CF75E008FD168 /* IgNobles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IgNobles.swift; path = ../../../SmashUp/SmashUp/IgNobles.swift; sourceTree = "<group>"; };
+		37D230FD1F8CF75E008FD168 /* MythicGreeks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MythicGreeks.swift; path = ../../../SmashUp/SmashUp/MythicGreeks.swift; sourceTree = "<group>"; };
+		37D230FE1F8CF75E008FD168 /* BearCavalry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BearCavalry.swift; path = ../../../SmashUp/SmashUp/BearCavalry.swift; sourceTree = "<group>"; };
+		37D230FF1F8CF75E008FD168 /* Clerics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Clerics.swift; path = ../../../SmashUp/SmashUp/Clerics.swift; sourceTree = "<group>"; };
+		37D231001F8CF75E008FD168 /* CyborgApes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CyborgApes.swift; path = ../../../SmashUp/SmashUp/CyborgApes.swift; sourceTree = "<group>"; };
+		37D231011F8CF75E008FD168 /* Dinosaurs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dinosaurs.swift; path = ../../../SmashUp/SmashUp/Dinosaurs.swift; sourceTree = "<group>"; };
+		37D231021F8CF75E008FD168 /* Dwarves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dwarves.swift; path = ../../../SmashUp/SmashUp/Dwarves.swift; sourceTree = "<group>"; };
+		37D231031F8CF75E008FD168 /* ElderThings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElderThings.swift; path = ../../../SmashUp/SmashUp/ElderThings.swift; sourceTree = "<group>"; };
+		37D231041F8CF75E008FD168 /* Elves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Elves.swift; path = ../../../SmashUp/SmashUp/Elves.swift; sourceTree = "<group>"; };
+		37D231051F8CF75E008FD168 /* Fairies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fairies.swift; path = ../../../SmashUp/SmashUp/Fairies.swift; sourceTree = "<group>"; };
+		37D231061F8CF75E008FD168 /* Geeks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Geeks.swift; path = ../../../SmashUp/SmashUp/Geeks.swift; sourceTree = "<group>"; };
+		37D231071F8CF75E008FD168 /* Ghosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ghosts.swift; path = ../../../SmashUp/SmashUp/Ghosts.swift; sourceTree = "<group>"; };
+		37D231081F8CF75E008FD168 /* GiantAnts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GiantAnts.swift; path = ../../../SmashUp/SmashUp/GiantAnts.swift; sourceTree = "<group>"; };
+		37D231091F8CF75E008FD168 /* Halflings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Halflings.swift; path = ../../../SmashUp/SmashUp/Halflings.swift; sourceTree = "<group>"; };
+		37D2310A1F8CF75E008FD168 /* Innsmouth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Innsmouth.swift; path = ../../../SmashUp/SmashUp/Innsmouth.swift; sourceTree = "<group>"; };
+		37D2310B1F8CF75E008FD168 /* KillerPlants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KillerPlants.swift; path = ../../../SmashUp/SmashUp/KillerPlants.swift; sourceTree = "<group>"; };
+		37D2310C1F8CF75E008FD168 /* KittyCats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KittyCats.swift; path = ../../../SmashUp/SmashUp/KittyCats.swift; sourceTree = "<group>"; };
+		37D2310D1F8CF75E008FD168 /* MadScientists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MadScientists.swift; path = ../../../SmashUp/SmashUp/MadScientists.swift; sourceTree = "<group>"; };
+		37D2310E1F8CF75E008FD168 /* Mages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mages.swift; path = ../../../SmashUp/SmashUp/Mages.swift; sourceTree = "<group>"; };
+		37D2310F1F8CF75E008FD168 /* MinionsOfCthulhu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinionsOfCthulhu.swift; path = ../../../SmashUp/SmashUp/MinionsOfCthulhu.swift; sourceTree = "<group>"; };
+		37D231101F8CF75E008FD168 /* MiskatonicUniversity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MiskatonicUniversity.swift; path = ../../../SmashUp/SmashUp/MiskatonicUniversity.swift; sourceTree = "<group>"; };
+		37D231111F8CF75E008FD168 /* MythicHorses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MythicHorses.swift; path = ../../../SmashUp/SmashUp/MythicHorses.swift; sourceTree = "<group>"; };
+		37D231121F8CF75E008FD168 /* Ninjas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ninjas.swift; path = ../../../SmashUp/SmashUp/Ninjas.swift; sourceTree = "<group>"; };
+		37D231131F8CF75E008FD168 /* Orcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Orcs.swift; path = ../../../SmashUp/SmashUp/Orcs.swift; sourceTree = "<group>"; };
+		37D231141F8CF75E008FD168 /* Pirates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pirates.swift; path = ../../../SmashUp/SmashUp/Pirates.swift; sourceTree = "<group>"; };
+		37D231151F8CF75E008FD168 /* Princesses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Princesses.swift; path = ../../../SmashUp/SmashUp/Princesses.swift; sourceTree = "<group>"; };
+		37D231161F8CF75E008FD168 /* Robots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Robots.swift; path = ../../../SmashUp/SmashUp/Robots.swift; sourceTree = "<group>"; };
+		37D231171F8CF75E008FD168 /* ShapeShifters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShapeShifters.swift; path = ../../../SmashUp/SmashUp/ShapeShifters.swift; sourceTree = "<group>"; };
+		37D231181F8CF75E008FD168 /* SteamPunks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SteamPunks.swift; path = ../../../SmashUp/SmashUp/SteamPunks.swift; sourceTree = "<group>"; };
+		37D231191F8CF75E008FD168 /* SuperSpies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuperSpies.swift; path = ../../../SmashUp/SmashUp/SuperSpies.swift; sourceTree = "<group>"; };
+		37D2311A1F8CF75E008FD168 /* Thieves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Thieves.swift; path = ../../../SmashUp/SmashUp/Thieves.swift; sourceTree = "<group>"; };
+		37D2311B1F8CF75E008FD168 /* TimeTravelers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeTravelers.swift; path = ../../../SmashUp/SmashUp/TimeTravelers.swift; sourceTree = "<group>"; };
+		37D2311C1F8CF75E008FD168 /* Tricksters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tricksters.swift; path = ../../../SmashUp/SmashUp/Tricksters.swift; sourceTree = "<group>"; };
+		37D2311D1F8CF75E008FD168 /* Vampires.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vampires.swift; path = ../../../SmashUp/SmashUp/Vampires.swift; sourceTree = "<group>"; };
+		37D2311E1F8CF75E008FD168 /* Werewolves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Werewolves.swift; path = ../../../SmashUp/SmashUp/Werewolves.swift; sourceTree = "<group>"; };
+		37D2311F1F8CF75E008FD168 /* Wizards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Wizards.swift; path = ../../../SmashUp/SmashUp/Wizards.swift; sourceTree = "<group>"; };
+		37D231201F8CF75E008FD168 /* Zombies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Zombies.swift; path = ../../../SmashUp/SmashUp/Zombies.swift; sourceTree = "<group>"; };
 		37F1EDA11F05E5090049AB8E /* SmashUpCardAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashUpCardAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F1EDA41F05E5090049AB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37F1EDA61F05E5090049AB8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -236,57 +246,61 @@
 		379A5B931F161BB0005BDBBF /* Faction Classes */ = {
 			isa = PBXGroup;
 			children = (
-				370C6E6A1F30A98D00A6CB31 /* AllStars.swift */,
-				370C6E6B1F30A98D00A6CB31 /* Explorers.swift */,
-				370C6E6C1F30A98D00A6CB31 /* Grannies.swift */,
-				370C6E6D1F30A98D00A6CB31 /* RockStars.swift */,
-				370C6E6E1F30A98D00A6CB31 /* TeddyBears.swift */,
-				379A5B941F161C37005BDBBF /* Aliens.swift */,
-				379A5B951F161C37005BDBBF /* AstroKnights.swift */,
-				379A5B961F161C37005BDBBF /* BearCavalry.swift */,
-				379A5B971F161C37005BDBBF /* ChangerBots.swift */,
-				379A5B981F161C37005BDBBF /* Clerics.swift */,
-				379A5B991F161C37005BDBBF /* CyborgApes.swift */,
-				379A5B9A1F161C37005BDBBF /* Dinosaurs.swift */,
-				379A5B9B1F161C37005BDBBF /* Dragons.swift */,
-				379A5B9C1F161C37005BDBBF /* Dwarves.swift */,
-				379A5B9D1F161C37005BDBBF /* ElderThings.swift */,
-				379A5B9E1F161C37005BDBBF /* Elves.swift */,
-				379A5B9F1F161C37005BDBBF /* Fairies.swift */,
-				379A5BA01F161C37005BDBBF /* Geeks.swift */,
-				379A5BA11F161C37005BDBBF /* Ghosts.swift */,
-				379A5BA21F161C37005BDBBF /* GiantAnts.swift */,
-				379A5BA31F161C37005BDBBF /* Halflings.swift */,
-				379A5BA41F161C37005BDBBF /* IgNobles.swift */,
-				379A5BA51F161C37005BDBBF /* Innsmouth.swift */,
-				379A5BA61F161C37005BDBBF /* KillerPlants.swift */,
-				379A5BA71F161C37005BDBBF /* KittyCats.swift */,
-				379A5BA81F161C37005BDBBF /* MadScientists.swift */,
-				379A5BA91F161C37005BDBBF /* Mages.swift */,
-				379A5BAA1F161C37005BDBBF /* MinionsOfCthulhu.swift */,
-				379A5BAB1F161C37005BDBBF /* MiskatonicUniversity.swift */,
-				379A5BAC1F161C37005BDBBF /* MythicGreeks.swift */,
-				379A5BAD1F161C37005BDBBF /* MythicHorses.swift */,
-				379A5BAE1F161C37005BDBBF /* Ninjas.swift */,
-				379A5BAF1F161C37005BDBBF /* Orcs.swift */,
-				379A5BB01F161C37005BDBBF /* Pirates.swift */,
-				379A5BB11F161C37005BDBBF /* Princesses.swift */,
-				379A5BB21F161C37005BDBBF /* Robots.swift */,
-				379A5BB31F161C37005BDBBF /* ShapeShifters.swift */,
-				379A5BB41F161C37005BDBBF /* Sharks.swift */,
-				379A5BB51F161C37005BDBBF /* StarRoamers.swift */,
-				379A5BB61F161C37005BDBBF /* SteamPunks.swift */,
-				379A5BB71F161C37005BDBBF /* SuperHeroes.swift */,
-				379A5BB81F161C37005BDBBF /* SuperSpies.swift */,
-				379A5BB91F161C37005BDBBF /* Thieves.swift */,
-				379A5BBA1F161C37005BDBBF /* TimeTravelers.swift */,
-				379A5BBB1F161C37005BDBBF /* Tornados.swift */,
-				379A5BBC1F161C37005BDBBF /* Tricksters.swift */,
-				379A5BBD1F161C37005BDBBF /* Vampires.swift */,
-				379A5BBE1F161C37005BDBBF /* Warriors.swift */,
-				379A5BBF1F161C37005BDBBF /* Werewolves.swift */,
-				379A5BC01F161C37005BDBBF /* Wizards.swift */,
-				379A5BC11F161C37005BDBBF /* Zombies.swift */,
+				37D230EA1F8CF75E008FD168 /* IttyCritters.swift */,
+				37D230EB1F8CF75E008FD168 /* Kaiju.swift */,
+				37D230EC1F8CF75E008FD168 /* MagicalGirls.swift */,
+				37D230ED1F8CF75E008FD168 /* MegaTroopers.swift */,
+				37D230EE1F8CF75E008FD168 /* AllStars.swift */,
+				37D230EF1F8CF75E008FD168 /* Explorers.swift */,
+				37D230F01F8CF75E008FD168 /* Grannies.swift */,
+				37D230F11F8CF75E008FD168 /* RockStars.swift */,
+				37D230F21F8CF75E008FD168 /* Sharks.swift */,
+				37D230F31F8CF75E008FD168 /* StarRoamers.swift */,
+				37D230F41F8CF75E008FD168 /* SuperHeroes.swift */,
+				37D230F51F8CF75E008FD168 /* TeddyBears.swift */,
+				37D230F61F8CF75E008FD168 /* Tornados.swift */,
+				37D230F71F8CF75E008FD168 /* Warriors.swift */,
+				37D230F81F8CF75E008FD168 /* Aliens.swift */,
+				37D230F91F8CF75E008FD168 /* AstroKnights.swift */,
+				37D230FA1F8CF75E008FD168 /* ChangerBots.swift */,
+				37D230FB1F8CF75E008FD168 /* Dragons.swift */,
+				37D230FC1F8CF75E008FD168 /* IgNobles.swift */,
+				37D230FD1F8CF75E008FD168 /* MythicGreeks.swift */,
+				37D230FE1F8CF75E008FD168 /* BearCavalry.swift */,
+				37D230FF1F8CF75E008FD168 /* Clerics.swift */,
+				37D231001F8CF75E008FD168 /* CyborgApes.swift */,
+				37D231011F8CF75E008FD168 /* Dinosaurs.swift */,
+				37D231021F8CF75E008FD168 /* Dwarves.swift */,
+				37D231031F8CF75E008FD168 /* ElderThings.swift */,
+				37D231041F8CF75E008FD168 /* Elves.swift */,
+				37D231051F8CF75E008FD168 /* Fairies.swift */,
+				37D231061F8CF75E008FD168 /* Geeks.swift */,
+				37D231071F8CF75E008FD168 /* Ghosts.swift */,
+				37D231081F8CF75E008FD168 /* GiantAnts.swift */,
+				37D231091F8CF75E008FD168 /* Halflings.swift */,
+				37D2310A1F8CF75E008FD168 /* Innsmouth.swift */,
+				37D2310B1F8CF75E008FD168 /* KillerPlants.swift */,
+				37D2310C1F8CF75E008FD168 /* KittyCats.swift */,
+				37D2310D1F8CF75E008FD168 /* MadScientists.swift */,
+				37D2310E1F8CF75E008FD168 /* Mages.swift */,
+				37D2310F1F8CF75E008FD168 /* MinionsOfCthulhu.swift */,
+				37D231101F8CF75E008FD168 /* MiskatonicUniversity.swift */,
+				37D231111F8CF75E008FD168 /* MythicHorses.swift */,
+				37D231121F8CF75E008FD168 /* Ninjas.swift */,
+				37D231131F8CF75E008FD168 /* Orcs.swift */,
+				37D231141F8CF75E008FD168 /* Pirates.swift */,
+				37D231151F8CF75E008FD168 /* Princesses.swift */,
+				37D231161F8CF75E008FD168 /* Robots.swift */,
+				37D231171F8CF75E008FD168 /* ShapeShifters.swift */,
+				37D231181F8CF75E008FD168 /* SteamPunks.swift */,
+				37D231191F8CF75E008FD168 /* SuperSpies.swift */,
+				37D2311A1F8CF75E008FD168 /* Thieves.swift */,
+				37D2311B1F8CF75E008FD168 /* TimeTravelers.swift */,
+				37D2311C1F8CF75E008FD168 /* Tricksters.swift */,
+				37D2311D1F8CF75E008FD168 /* Vampires.swift */,
+				37D2311E1F8CF75E008FD168 /* Werewolves.swift */,
+				37D2311F1F8CF75E008FD168 /* Wizards.swift */,
+				37D231201F8CF75E008FD168 /* Zombies.swift */,
 			);
 			name = "Faction Classes";
 			sourceTree = "<group>";
@@ -294,12 +308,12 @@
 		379A5BF01F161D4B005BDBBF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				379A5BF11F161D85005BDBBF /* ActionCard.swift */,
-				379A5BF21F161D85005BDBBF /* ActionCardAbility.swift */,
-				379A5BF31F161D85005BDBBF /* Faction.swift */,
-				379A5BF41F161D85005BDBBF /* Minion.swift */,
-				379A5BF51F161D85005BDBBF /* MinionAbility.swift */,
-				379A5B8F1F160E7C005BDBBF /* ListOfAllCardsAndFactions.swift */,
+				37D230DE1F8CF6B1008FD168 /* Faction.swift */,
+				37D230DF1F8CF6B1008FD168 /* ListOfAllCardsAndFactions.swift */,
+				37D230E01F8CF6B1008FD168 /* Minion.swift */,
+				37D230E11F8CF6B1008FD168 /* MinionAbility.swift */,
+				37D230E21F8CF6B1008FD168 /* ActionCard.swift */,
+				37D230E31F8CF6B1008FD168 /* ActionCardAbility.swift */,
 			);
 			name = "Support Files";
 			sourceTree = "<group>";
@@ -327,13 +341,14 @@
 		37F1EDA31F05E5090049AB8E /* SmashUpCardAnalyzer */ = {
 			isa = PBXGroup;
 			children = (
+				3754BE611FD5E7470067DAC5 /* orbitron-black.otf */,
+				3754BE5F1FD5E7470067DAC5 /* orbitron-bold.otf */,
+				3754BE601FD5E7470067DAC5 /* orbitron-medium.otf */,
 				379A5BF01F161D4B005BDBBF /* Support Files */,
 				379A5B931F161BB0005BDBBF /* Faction Classes */,
 				379A5B781F136EC6005BDBBF /* CollectionView */,
-				379A5B761F1356EF005BDBBF /* Diplomata-Regular.ttf */,
 				37D230DA1F883888008FD168 /* Diplomata-Regular.ttf */,
 				37D230DC1F8838B6008FD168 /* Heroic.ttf */,
-				379A5B741F0DA522005BDBBF /* Heroic.ttf */,
 				37F1EDA41F05E5090049AB8E /* AppDelegate.swift */,
 				37F1EDA61F05E5090049AB8E /* ViewController.swift */,
 				379A5B811F13745B005BDBBF /* CardTypeMAandTopViewController.swift */,
@@ -478,11 +493,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				379A5B771F1356EF005BDBBF /* Diplomata-Regular.ttf in Resources */,
-				379A5B751F0DA522005BDBBF /* Heroic.ttf in Resources */,
+				3754BE631FD5E7480067DAC5 /* orbitron-medium.otf in Resources */,
 				37F1EDB21F05E5090049AB8E /* LaunchScreen.storyboard in Resources */,
+				3754BE641FD5E7480067DAC5 /* orbitron-black.otf in Resources */,
 				37D230DB1F883888008FD168 /* Diplomata-Regular.ttf in Resources */,
 				37F1EDAF1F05E5090049AB8E /* Assets.xcassets in Resources */,
+				3754BE621FD5E7480067DAC5 /* orbitron-bold.otf in Resources */,
 				37F1EDAA1F05E5090049AB8E /* Main.storyboard in Resources */,
 				37D230DD1F8838B6008FD168 /* Heroic.ttf in Resources */,
 			);
@@ -509,77 +525,81 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				370C6E721F30A98D00A6CB31 /* RockStars.swift in Sources */,
+				37D231371F8CF75E008FD168 /* CyborgApes.swift in Sources */,
 				379A5B8A1F15F44E005BDBBF /* SearchOptions.swift in Sources */,
-				379A5BC31F161C37005BDBBF /* AstroKnights.swift in Sources */,
-				370C6E6F1F30A98D00A6CB31 /* AllStars.swift in Sources */,
-				379A5BCB1F161C37005BDBBF /* ElderThings.swift in Sources */,
+				37D231341F8CF75E008FD168 /* MythicGreeks.swift in Sources */,
+				37D231431F8CF75E008FD168 /* KittyCats.swift in Sources */,
+				37D231221F8CF75E008FD168 /* Kaiju.swift in Sources */,
+				37D231311F8CF75E008FD168 /* ChangerBots.swift in Sources */,
+				37D2312E1F8CF75E008FD168 /* Warriors.swift in Sources */,
+				37D230E61F8CF6B1008FD168 /* Minion.swift in Sources */,
 				379A5B8E1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift in Sources */,
-				379A5BD51F161C37005BDBBF /* KittyCats.swift in Sources */,
+				37D2314E1F8CF75E008FD168 /* ShapeShifters.swift in Sources */,
+				37D230E71F8CF6B1008FD168 /* MinionAbility.swift in Sources */,
+				37D231561F8CF75E008FD168 /* Wizards.swift in Sources */,
 				379A5B8C1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift in Sources */,
-				379A5BDB1F161C38005BDBBF /* MythicHorses.swift in Sources */,
-				379A5BD91F161C37005BDBBF /* MiskatonicUniversity.swift in Sources */,
-				379A5BDD1F161C38005BDBBF /* Orcs.swift in Sources */,
-				379A5BC21F161C37005BDBBF /* Aliens.swift in Sources */,
+				37D231481F8CF75E008FD168 /* MythicHorses.swift in Sources */,
+				37D231241F8CF75E008FD168 /* MegaTroopers.swift in Sources */,
+				37D2314D1F8CF75E008FD168 /* Robots.swift in Sources */,
+				37D231451F8CF75E008FD168 /* Mages.swift in Sources */,
 				379A5B801F13712F005BDBBF /* KillCollectionViewCell.swift in Sources */,
-				379A5BE51F161C38005BDBBF /* SuperHeroes.swift in Sources */,
 				379A5B7E1F137117005BDBBF /* TopCollectionViewCell.swift in Sources */,
+				37D231291F8CF75E008FD168 /* Sharks.swift in Sources */,
 				37F1EDA71F05E5090049AB8E /* ViewController.swift in Sources */,
-				379A5BEC1F161C38005BDBBF /* Warriors.swift in Sources */,
+				37D2314B1F8CF75E008FD168 /* Pirates.swift in Sources */,
+				37D231301F8CF75E008FD168 /* AstroKnights.swift in Sources */,
 				37F1EDA51F05E5090049AB8E /* AppDelegate.swift in Sources */,
-				379A5BE31F161C38005BDBBF /* StarRoamers.swift in Sources */,
+				37D231361F8CF75E008FD168 /* Clerics.swift in Sources */,
 				379A5B921F16181B005BDBBF /* Card.swift in Sources */,
-				379A5BEA1F161C38005BDBBF /* Tricksters.swift in Sources */,
-				379A5BD01F161C37005BDBBF /* GiantAnts.swift in Sources */,
-				379A5BC81F161C37005BDBBF /* Dinosaurs.swift in Sources */,
-				379A5BED1F161C38005BDBBF /* Werewolves.swift in Sources */,
-				379A5B901F160E7C005BDBBF /* ListOfAllCardsAndFactions.swift in Sources */,
-				379A5BCE1F161C37005BDBBF /* Geeks.swift in Sources */,
-				379A5BCC1F161C37005BDBBF /* Elves.swift in Sources */,
-				370C6E701F30A98D00A6CB31 /* Explorers.swift in Sources */,
-				379A5BCA1F161C37005BDBBF /* Dwarves.swift in Sources */,
+				37D2314A1F8CF75E008FD168 /* Orcs.swift in Sources */,
+				37D231541F8CF75E008FD168 /* Vampires.swift in Sources */,
+				37D231441F8CF75E008FD168 /* MadScientists.swift in Sources */,
+				37D2314C1F8CF75E008FD168 /* Princesses.swift in Sources */,
+				37D231501F8CF75E008FD168 /* SuperSpies.swift in Sources */,
+				37D2313E1F8CF75E008FD168 /* Ghosts.swift in Sources */,
+				37D230E91F8CF6B1008FD168 /* ActionCardAbility.swift in Sources */,
+				37D231421F8CF75E008FD168 /* KillerPlants.swift in Sources */,
+				37D231261F8CF75E008FD168 /* Explorers.swift in Sources */,
+				37D231251F8CF75E008FD168 /* AllStars.swift in Sources */,
+				37D231391F8CF75E008FD168 /* Dwarves.swift in Sources */,
+				37D2312D1F8CF75E008FD168 /* Tornados.swift in Sources */,
+				37D2313C1F8CF75E008FD168 /* Fairies.swift in Sources */,
+				37D2312F1F8CF75E008FD168 /* Aliens.swift in Sources */,
+				37D2312A1F8CF75E008FD168 /* StarRoamers.swift in Sources */,
 				379A5B7C1F137073005BDBBF /* KillCollectionViewController.swift in Sources */,
-				379A5BDA1F161C37005BDBBF /* MythicGreeks.swift in Sources */,
 				379A5B7A1F137049005BDBBF /* TopCollectionViewController.swift in Sources */,
-				379A5BE61F161C38005BDBBF /* SuperSpies.swift in Sources */,
-				379A5BDE1F161C38005BDBBF /* Pirates.swift in Sources */,
-				379A5BC61F161C37005BDBBF /* Clerics.swift in Sources */,
-				379A5BE81F161C38005BDBBF /* TimeTravelers.swift in Sources */,
+				37D231491F8CF75E008FD168 /* Ninjas.swift in Sources */,
+				37D2313F1F8CF75E008FD168 /* GiantAnts.swift in Sources */,
+				37D231411F8CF75E008FD168 /* Innsmouth.swift in Sources */,
+				37D2313D1F8CF75E008FD168 /* Geeks.swift in Sources */,
+				37D231461F8CF75E008FD168 /* MinionsOfCthulhu.swift in Sources */,
 				379A5B861F138364005BDBBF /* Factions.swift in Sources */,
-				379A5BFA1F161D85005BDBBF /* MinionAbility.swift in Sources */,
-				379A5BD11F161C37005BDBBF /* Halflings.swift in Sources */,
-				379A5BF91F161D85005BDBBF /* Minion.swift in Sources */,
-				379A5BF61F161D85005BDBBF /* ActionCard.swift in Sources */,
-				379A5BE71F161C38005BDBBF /* Thieves.swift in Sources */,
-				379A5BEE1F161C38005BDBBF /* Wizards.swift in Sources */,
+				37D2314F1F8CF75E008FD168 /* SteamPunks.swift in Sources */,
 				379A5B841F137486005BDBBF /* CardTypeKillMoveExtraEtcViewController.swift in Sources */,
-				379A5BC71F161C37005BDBBF /* CyborgApes.swift in Sources */,
-				379A5BE91F161C38005BDBBF /* Tornados.swift in Sources */,
-				379A5BEF1F161C38005BDBBF /* Zombies.swift in Sources */,
-				379A5BE11F161C38005BDBBF /* ShapeShifters.swift in Sources */,
-				379A5BD41F161C37005BDBBF /* KillerPlants.swift in Sources */,
-				379A5BF81F161D85005BDBBF /* Faction.swift in Sources */,
-				379A5BD81F161C37005BDBBF /* MinionsOfCthulhu.swift in Sources */,
-				379A5BDF1F161C38005BDBBF /* Princesses.swift in Sources */,
-				379A5BDC1F161C38005BDBBF /* Ninjas.swift in Sources */,
-				379A5BE41F161C38005BDBBF /* SteamPunks.swift in Sources */,
-				379A5BE21F161C38005BDBBF /* Sharks.swift in Sources */,
+				37D230E41F8CF6B1008FD168 /* Faction.swift in Sources */,
+				37D231281F8CF75E008FD168 /* RockStars.swift in Sources */,
+				37D231471F8CF75E008FD168 /* MiskatonicUniversity.swift in Sources */,
+				37D231351F8CF75E008FD168 /* BearCavalry.swift in Sources */,
+				37D231511F8CF75E008FD168 /* Thieves.swift in Sources */,
+				37D231321F8CF75E008FD168 /* Dragons.swift in Sources */,
+				37D231231F8CF75E008FD168 /* MagicalGirls.swift in Sources */,
 				379A5B821F13745B005BDBBF /* CardTypeMAandTopViewController.swift in Sources */,
-				379A5BCD1F161C37005BDBBF /* Fairies.swift in Sources */,
-				379A5BF71F161D85005BDBBF /* ActionCardAbility.swift in Sources */,
-				379A5BC51F161C37005BDBBF /* ChangerBots.swift in Sources */,
-				379A5BEB1F161C38005BDBBF /* Vampires.swift in Sources */,
-				379A5BC41F161C37005BDBBF /* BearCavalry.swift in Sources */,
-				370C6E711F30A98D00A6CB31 /* Grannies.swift in Sources */,
-				370C6E731F30A98D00A6CB31 /* TeddyBears.swift in Sources */,
-				379A5BE01F161C38005BDBBF /* Robots.swift in Sources */,
-				379A5BD31F161C37005BDBBF /* Innsmouth.swift in Sources */,
-				379A5BD71F161C37005BDBBF /* Mages.swift in Sources */,
-				379A5BD21F161C37005BDBBF /* IgNobles.swift in Sources */,
+				37D2313A1F8CF75E008FD168 /* ElderThings.swift in Sources */,
+				37D231551F8CF75E008FD168 /* Werewolves.swift in Sources */,
+				37D230E51F8CF6B1008FD168 /* ListOfAllCardsAndFactions.swift in Sources */,
+				37D231271F8CF75E008FD168 /* Grannies.swift in Sources */,
+				37D2312B1F8CF75E008FD168 /* SuperHeroes.swift in Sources */,
+				37D231521F8CF75E008FD168 /* TimeTravelers.swift in Sources */,
+				37D231331F8CF75E008FD168 /* IgNobles.swift in Sources */,
+				37D230E81F8CF6B1008FD168 /* ActionCard.swift in Sources */,
+				37D2313B1F8CF75E008FD168 /* Elves.swift in Sources */,
 				37F1EDAD1F05E5090049AB8E /* SmashUpCardAnalyzer.xcdatamodeld in Sources */,
-				379A5BD61F161C37005BDBBF /* MadScientists.swift in Sources */,
-				379A5BC91F161C37005BDBBF /* Dragons.swift in Sources */,
-				379A5BCF1F161C37005BDBBF /* Ghosts.swift in Sources */,
+				37D231381F8CF75E008FD168 /* Dinosaurs.swift in Sources */,
+				37D2312C1F8CF75E008FD168 /* TeddyBears.swift in Sources */,
+				37D231401F8CF75E008FD168 /* Halflings.swift in Sources */,
+				37D231211F8CF75E008FD168 /* IttyCritters.swift in Sources */,
+				37D231531F8CF75E008FD168 /* Tricksters.swift in Sources */,
+				37D231571F8CF75E008FD168 /* Zombies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

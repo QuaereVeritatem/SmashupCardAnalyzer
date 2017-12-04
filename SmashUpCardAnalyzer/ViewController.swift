@@ -6,7 +6,8 @@
 //  Copyright © 2017 Robert Martin. All rights reserved.
 //
 
-//issues: going from one vc to another causes constarint issues which will eventually crash the app!!
+//issues: going from one vc to another causes constraint issues which will eventually crash the app!!
+// launch screen image not showing!!
 
 import UIKit
 

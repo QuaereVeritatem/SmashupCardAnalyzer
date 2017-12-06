@@ -5,6 +5,9 @@
 //  Created by Robert Martin on 7/10/17.
 //  Copyright © 2017 Robert Martin. All rights reserved.
 //
+// This will be the 'zoom in view' of the card selected from the collection view
+
+// Things to do: 1) set up labels on card 2) create a function that can change the picture (for when we upload pics of all cards
 
 import UIKit
 

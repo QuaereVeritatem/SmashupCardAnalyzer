@@ -18,7 +18,6 @@
 		379A5B841F137486005BDBBF /* CardTypeKillMoveExtraEtcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B831F137486005BDBBF /* CardTypeKillMoveExtraEtcViewController.swift */; };
 		379A5B861F138364005BDBBF /* Factions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B851F138364005BDBBF /* Factions.swift */; };
 		379A5B8A1F15F44E005BDBBF /* SearchOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B891F15F44E005BDBBF /* SearchOptions.swift */; };
-		379A5B8C1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B8B1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift */; };
 		379A5B8E1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B8D1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift */; };
 		379A5B921F16181B005BDBBF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A5B911F16181B005BDBBF /* Card.swift */; };
 		37D230DB1F883888008FD168 /* Diplomata-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37D230DA1F883888008FD168 /* Diplomata-Regular.ttf */; };
@@ -123,7 +122,6 @@
 		379A5B831F137486005BDBBF /* CardTypeKillMoveExtraEtcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTypeKillMoveExtraEtcViewController.swift; sourceTree = "<group>"; };
 		379A5B851F138364005BDBBF /* Factions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factions.swift; sourceTree = "<group>"; };
 		379A5B891F15F44E005BDBBF /* SearchOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchOptions.swift; sourceTree = "<group>"; };
-		379A5B8B1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchThruEntireDeckViewController.swift; sourceTree = "<group>"; };
 		379A5B8D1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAllCollectionViewCell.swift; sourceTree = "<group>"; };
 		379A5B911F16181B005BDBBF /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		37D230DA1F883888008FD168 /* Diplomata-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Diplomata-Regular.ttf"; path = "../../../../../DesignsOrArt/DesigningApps/FONTS/Diplomata/Diplomata-Regular.ttf"; sourceTree = "<group>"; };
@@ -237,7 +235,6 @@
 				379A5B7D1F137117005BDBBF /* TopCollectionViewCell.swift */,
 				379A5B7B1F137073005BDBBF /* KillCollectionViewController.swift */,
 				379A5B7F1F13712F005BDBBF /* KillCollectionViewCell.swift */,
-				379A5B8B1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift */,
 				379A5B8D1F15F9F4005BDBBF /* SearchAllCollectionViewCell.swift */,
 			);
 			name = CollectionView;
@@ -537,7 +534,6 @@
 				37D2314E1F8CF75E008FD168 /* ShapeShifters.swift in Sources */,
 				37D230E71F8CF6B1008FD168 /* MinionAbility.swift in Sources */,
 				37D231561F8CF75E008FD168 /* Wizards.swift in Sources */,
-				379A5B8C1F15F79C005BDBBF /* SearchThruEntireDeckViewController.swift in Sources */,
 				37D231481F8CF75E008FD168 /* MythicHorses.swift in Sources */,
 				37D231241F8CF75E008FD168 /* MegaTroopers.swift in Sources */,
 				37D2314D1F8CF75E008FD168 /* Robots.swift in Sources */,

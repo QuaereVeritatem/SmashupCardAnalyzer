@@ -5,6 +5,7 @@
 //  Created by Robert Martin on 7/10/17.
 //  Copyright © 2017 Robert Martin. All rights reserved.
 //
+//Todo list: 1)Put in a navigational controller 2) connect to zoom in viewcontroller
 
 import UIKit
 
